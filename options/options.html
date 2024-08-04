@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>__MSG_xpunge.options.title__</title>
+  <link rel="stylesheet" href="chrome://messenger/skin/colors.css" />
+  <link rel="stylesheet" href="chrome://global/skin/design-system/tokens-shared.css" />
+  <link rel="stylesheet" href="options.css">
+  <script src="options.js" type="module"></script>
+</head>
+
+<body>
+  <div id="tabpanel">
+    <ul role="tablist" id="tabList">
+      <li id="singleTab" role="tab" aria-controls="singlePanel" aria-selected="true">__MSG_xpunge.options.tab.single__</li>
+      <li id="multiTab" role="tab" aria-controls="multiPanel" aria-selected="false">__MSG_xpunge.options.tab.multi__</li>
+      <li id="timerTab" role="tab" aria-controls="timerPanel" aria-selected="false">__MSG_xpunge.options.tab.timer__</li>
+      <li id="settingsTab" role="tab" aria-controls="settingsPanel" aria-selected="false">__MSG_xpunge.options.tab.settings__</li>
+    </ul>
+    <div id="tabcontent">
+
+      <div id="singlePanel" role="tabpanel" aria-labelledby="singleTab" aria-hidden="false">
+
+        <div class="vbox">
+          <label>
+            <input type="checkbox" id="xpunge_single_trash" data-preference="empty_trash" />
+            __MSG_xpunge.options.single.checkbox.trash__
+          </label>
+
+          <label>
+            <input type="checkbox" id="xpunge_single_junk" data-preference="empty_junk" />
+            __MSG_xpunge.options.single.checkbox.junk__
+          </label>
+
+          <label>
+            <input type="checkbox" id="xpunge_single_compact"
+              data-preference="compact_folders" />
+            __MSG_xpunge.options.single.checkbox.compact__
+          </label>
+        </div>
+      </div>
+
+
+      <div id="multiPanel" role="tabpanel" aria-labelledby="multiTab" aria-hidden="true">
+        <div class="vbox">
+          <fieldset  style="margin-bottom: 2em">
+            <legend>__MSG_xpunge.options.multi.label.emptied.accounts__</legend>
+    
+            <div class="hbox">
+              <div class="vbox" style="flex:1">
+                <table
+                  id="xpunge_multi_tree"
+                  class="tree_table"
+                  data-preference="multi_junk_trash_tree">
+                  <tr class="tree_header">
+                    <td>
+                      __MSG_xpunge.options.multi.emptied.col.account__
+                    </td>
+                    <td class="tree_checkbox">
+                      __MSG_xpunge.options.multi.emptied.col.trash__
+                    </td>
+                    <td class="tree_checkbox">
+                      __MSG_xpunge.options.multi.emptied.col.junk__
+                    </td>
+                  </tr>
+                </table>
+              </div>
+
+              <div class="vbox center" style="margin: 1em; width: 110px">
+                <button id="xpunge_multi_trash_add_all">
+                  __MSG_xpunge.options.multi.button.trash.addall__
+                </button>
+
+                <button id="xpunge_multi_trash_remove_all">
+                  __MSG_xpunge.options.multi.button.trash.removeall__
+                </button>
+
+                <button id="xpunge_multi_junk_add_all">
+                  __MSG_xpunge.options.multi.button.junk.addall__
+                </button>
+
+                <button id="xpunge_multi_junk_remove_all">
+                  __MSG_xpunge.options.multi.button.junk.removeall__
+                </button>
+              </div>
+            </div>
+          </fieldset>
+          
+          <fieldset>
+            <legend>__MSG_xpunge.options.multi.label.compact.accounts__</legend>
+            
+            <div style="margin-top: 1ex; margin-bottom: 1ex;">
+              <label control="xpunge_multi_compact_picker">
+                __MSG_xpunge.options.multi.label.compact.picker__
+              </label>
+            </div>
+
+            <div class="hbox">
+              <div class="vbox" style="flex:1;">
+                <mail-folder-picker 
+                  id="xpunge_multi_mail_folder_picker"
+                  aria-placeholder="Select a folder ..."/>
+              </div>
+
+              <div class="vbox center" style="margin: 0 1em; width: 110px">
+                <button id="xpunge_multi_compact_add"
+                        disabled="true">
+                  __MSG_xpunge.options.multi.button.compact.add__
+                </button>
+              </div>
+            </div>
+
+            <div class="hbox" style="margin-top:1ex">
+              <div class="vbox" style="flex:1">
+                <select id="xpunge_multi_compact_accounts"
+                        style="height:240px;"
+                        multiple="multiple"
+                        data-preference="multi_compact_folders"
+                        size="5">
+                </select>
+              </div>
+
+              <div class="vbox center" style="margin: 1em; width: 110px">
+                <button id="xpunge_multi_compact_remove"
+                        disabled="true">
+                  __MSG_xpunge.options.multi.button.compact.remove__
+                </button>
+
+                <button id="xpunge_multi_compact_add_all">
+                  __MSG_xpunge.options.multi.button.compact.addall__
+                </button>
+
+                <button id="xpunge_multi_compact_remove_all"
+                        disabled="true">
+                  __MSG_xpunge.options.multi.button.compact.removeall__
+                </button>
+              </div>
+            </div>
+          </fieldset>
+
+        </div>
+      </div>
+
+      <div id="timerPanel" role="tabpanel" aria-labelledby="timerTab" aria-hidden="true">
+        <div class="vbox">
+          <div class="vbox" style="margin-bottom: 2em">
+            
+            <div class="hbox">
+              <label>
+                <input
+                  style="margin:1ex"
+                  type="checkbox"
+                  data-preference="timer_interval_enabled" />
+                __MSG_xpunge.options.timer.checkbox.auto__
+              </label>
+            </div>
+            <div class="hbox" style="padding-left:2em">
+              <label>
+                <input 
+                  style="margin:1ex"
+                  type="text"
+                  size="5" cols="5" maxlength="5"
+                  tooltiptext="__MSG_xpunge.options.timer.auto.tooltip.startup__"
+                  data-preference="timer_interval_startup"/>
+                __MSG_xpunge.options.timer.auto.label.startup.suffix__
+              </label>
+            </div>
+            <div class="hbox" style="padding-left:2em">
+              <label>
+                <input
+                  style="margin:1ex"
+                  type="text"
+                  size="5" cols="5" maxlength="5"
+                  tooltiptext="__MSG_xpunge.options.timer.auto.tooltip.loop__"
+                  data-preference="timer_interval_loop"/>
+                __MSG_xpunge.options.timer.auto.label.loop.suffix__
+              </label>
+            </div>
+  
+            <div class="hbox">
+              <label>
+                <input
+                  style="margin:1ex"
+                  type="checkbox"
+                  data-preference="timer_absolute_enabled" />
+                __MSG_xpunge.options.timer.checkbox.auto.absolute__
+              </label>
+              <input
+                style="margin:1ex"
+                type="time"
+                data-preference="timer_absolute" />
+            </div>
+          </div>
+          
+          <fieldset style="margin-bottom: 2em">
+            <legend>__MSG_xpunge.options.timer.label.emptied.accounts__</legend>
+        
+            <div class="hbox">
+              <div class="vbox" style="flex:1">
+                <table
+                  id="xpunge_timer_tree"
+                  class="tree_table"
+                  data-preference="timer_junk_trash_tree">
+                  <tr class="tree_header">
+                    <td>
+                      __MSG_xpunge.options.timer.emptied.col.account__
+                    </td>
+                    <td class="tree_checkbox">
+                      __MSG_xpunge.options.timer.emptied.col.trash__
+                    </td>
+                    <td class="tree_checkbox">
+                      __MSG_xpunge.options.timer.emptied.col.junk__
+                    </td>
+                  </tr>
+                </table>
+              </div>
+        
+              <div class="vbox center" style="margin: 1em; width: 110px">
+                <button id="xpunge_timer_trash_add_all">
+                  __MSG_xpunge.options.timer.button.trash.addall__
+                </button>
+        
+                <button id="xpunge_timer_trash_remove_all">
+                  __MSG_xpunge.options.timer.button.trash.removeall__
+                </button>
+        
+                <button id="xpunge_timer_junk_add_all">
+                  __MSG_xpunge.options.timer.button.junk.addall__
+                </button>
+        
+                <button id="xpunge_timer_junk_remove_all">
+                  __MSG_xpunge.options.timer.button.junk.removeall__
+                </button>
+              </div>
+            </div>
+          </fieldset>
+          
+          <fieldset>
+            <legend>__MSG_xpunge.options.timer.label.compact.accounts__</legend>
+            
+            <div style="margin-top: 1ex; margin-bottom: 1ex;">
+              <label control="xpunge_timer_compact_picker">
+                __MSG_xpunge.options.timer.label.compact.picker__
+              </label>
+            </div>
+        
+            <div class="hbox">
+              <div class="vbox" style="flex:1;">
+                <mail-folder-picker 
+                  id="xpunge_timer_mail_folder_picker"
+                  aria-placeholder="Select a folder ..."/>
+              </div>
+        
+              <div class="vbox center" style="margin: 0 1em; width: 110px">
+                <button id="xpunge_timer_compact_add"
+                        disabled="true">
+                  __MSG_xpunge.options.timer.button.compact.add__
+                </button>
+              </div>
+            </div>
+        
+            <div class="hbox" style="margin-top:1ex">
+              <div class="vbox" style="flex:1">
+                <select id="xpunge_timer_compact_accounts"
+                        style="height:240px;"
+                        timerple="timerple"
+                        data-preference="timer_compact_folders"
+                        size="5">
+                </select>
+              </div>
+        
+              <div class="vbox center" style="margin: 1em; width: 110px">
+                <button id="xpunge_timer_compact_remove"
+                        disabled="true">
+                  __MSG_xpunge.options.timer.button.compact.remove__
+                </button>
+        
+                <button id="xpunge_timer_compact_add_all">
+                  __MSG_xpunge.options.timer.button.compact.addall__
+                </button>
+        
+                <button id="xpunge_timer_compact_remove_all"
+                        disabled="true">
+                  __MSG_xpunge.options.timer.button.compact.removeall__
+                </button>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+
+      <div id="settingsPanel" role="tabpanel" aria-labelledby="settingsTab" aria-hidden="true">
+        <fieldset>
+          <legend>__MSG_xpunge.options.settings.single.caption__</legend>
+          <label>
+            <input type="checkbox" id="xpunge_settings_single_confirm" data-preference="confirm_single_action" />
+            __MSG_xpunge.options.settings.single.checkbox.confirm__
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>__MSG_xpunge.options.settings.multi.caption__</legend>
+          <label>
+            <input type="checkbox" id="xpunge_settings_multi_confirm" data-preference="confirm_multi_action" />
+            __MSG_xpunge.options.settings.multi.checkbox.confirm__
+          </label>
+        </fieldset>
+      </div>
+
+
+    </div>
+  </div>
+</body>
+
+</html>
