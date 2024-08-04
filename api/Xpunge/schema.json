@@ -1,0 +1,55 @@
+[
+  {
+    "namespace": "Xpunge",
+    "functions": [
+      {
+        "name": "emptyTrash",
+        "type": "function",
+        "async": true,
+        "parameters": [
+          {
+            "name": "selectedFolder",
+            "$ref": "folders.MailFolder"
+          }
+        ]
+      },
+      {
+        "name": "emptyJunk",
+        "type": "function",
+        "async": true,
+        "parameters": [
+          {
+            "name": "selectedFolder",
+            "$ref": "folders.MailFolder"
+          }
+        ]
+      },
+      {
+        "name": "compact",
+        "type": "function",
+        "async": true,
+        "parameters": [
+          {
+            "name": "selectedFolder",
+            "$ref": "folders.MailFolder"
+          }
+        ]
+      },
+      {
+        "name": "confirm",
+        "type": "function",
+        "async": true,
+        "parameters": [
+          {
+            "name": "dialogTitle",
+            "type": "string"
+          },
+          {
+            "name": "dialogMessage",
+            "type": "string"
+          }
+        ]
+      }
+    ]
+  }
+]

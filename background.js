@@ -1,28 +1,41 @@
-function multiXpungeClickAction() {
-  browser.XpungeAPI.doMultiXpunge();
-}
+import { migratePrefs } from "./modules/migration.mjs";
+import { createMenuEntries } from "./modules/menus.mjs";
+import { 
+  xpungeMultiple,
+  handleXpungeTimer
+} from "./modules/xpunge.mjs";
 
-browser.browserAction.onClicked.addListener(multiXpungeClickAction);
+/* Migrate Prefs from the legacy preference tree to local storage */
+await migratePrefs();
 
-messenger.WindowListener.registerDefaultPrefs("defaults/preferences/xpunge.js");
+/* Menu entries
+ * ------------
+ * Add entries to the tools menu and to the folder pane context menu.
+ */
+await createMenuEntries();
 
-messenger.WindowListener.registerChromeUrl([ 
-  ["content",  "xpunge",              "chrome/content/"],
-  ["locale",   "xpunge",   "en-US",   "chrome/locale/en-US/"],
-  ["locale",   "xpunge",   "da",      "chrome/locale/da/"],
-  ["locale",   "xpunge",   "de",      "chrome/locale/de/"],
-  ["locale",   "xpunge",   "el",      "chrome/locale/el/"],
-  ["locale",   "xpunge",   "fr-FR",   "chrome/locale/fr-FR/"],
-  ["locale",   "xpunge",   "ja",      "chrome/locale/ja/"],
-  ["locale",   "xpunge",   "ru",      "chrome/locale/ru/"]
-]);
+/* Timer
+ * -----
+ * We use a default timer to check every minute if something needs to be done.
+ */
+browser.alarms.create("xpunge", {
+  periodInMinutes: 1,
+});
+browser.alarms.onAlarm.addListener(alarm => {
+  if (alarm.name == "xpunge") {
+    handleXpungeTimer();
+  }
+})
+// Reset timer related values on startup.
+await browser.storage.local.set({
+  startup: Date.now(),
+  lastTimerRun: 0,
+})
 
-messenger.WindowListener.registerOptionsPage("chrome://xpunge/content/xpunge_options.xhtml");
-
-messenger.WindowListener.registerWindow(
-  "chrome://messenger/content/messenger.xhtml",
-  "chrome://xpunge/content/messenger.js"
-);
-
-messenger.WindowListener.startListening();
-
+/* Browser Action
+ * --------------
+ * Add a browser action for the multi expunge action to the unified toolbar.
+ */
+browser.browserAction.onClicked.addListener(() => {
+  xpungeMultiple();
+});
