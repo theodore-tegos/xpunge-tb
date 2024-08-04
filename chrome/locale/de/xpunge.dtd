@@ -1,0 +1,74 @@
+<!-- Buttons -->
+<!ENTITY xpunge.toolbar.single.button																	"Xpunge">
+<!ENTITY xpunge.toolbar.multi.button																	"MultiXpunge">
+<!ENTITY xpunge.toolbar.single.tooltip																"Xpunge">
+<!ENTITY xpunge.toolbar.multi.tooltip																	"MultiXpunge">
+
+<!-- Options -->
+<!ENTITY xpunge.options.title																					"Xpunge Einstellungen">
+<!ENTITY xpunge.options.tab.single																		"Xpunge">
+<!ENTITY xpunge.options.tab.multi																			"MultiXpunge">
+<!ENTITY xpunge.options.tab.timer																			"Zeitsteuerung">
+<!ENTITY xpunge.options.tab.settings																	"Einstellungen">
+<!ENTITY xpunge.options.single.checkbox.trash													"Leere Papierkörbe">
+<!ENTITY xpunge.options.single.checkbox.junk													"Leere Junk Ordner">
+<!ENTITY xpunge.options.single.checkbox.compact												"Ordner komprimieren">
+<!ENTITY xpunge.options.multi.label.emptied.accounts									"Papierkörbe (d) und Junk Ordner [d] zum leeren:">
+<!ENTITY xpunge.options.multi.emptied.col.account											"Konto">
+<!ENTITY xpunge.options.multi.emptied.col.uri													"Uri">
+<!ENTITY xpunge.options.multi.emptied.col.trash												"Papierkorb">
+<!ENTITY xpunge.options.multi.emptied.col.junk												"Junk">
+<!ENTITY xpunge.options.multi.button.trash.addall											"Alle Papierkörbe hinzufügen">
+<!ENTITY xpunge.options.multi.button.trash.removeall									"Alle Papierkörbe entfernen">
+<!ENTITY xpunge.options.multi.button.junk.addall											"Alle Junk Ordner hinzufügen">
+<!ENTITY xpunge.options.multi.button.junk.removeall										"Alle Junk Ordner entfernen">
+<!ENTITY xpunge.options.multi.label.compact.accounts									"Konten/Ordner zum komprimieren">
+<!ENTITY xpunge.options.multi.label.compact.picker										"Wähle Ordner zum komprimieren:">
+<!ENTITY xpunge.options.multi.button.compact.add											"Auswahl hinzufügen">
+<!ENTITY xpunge.options.multi.button.compact.remove										"Auswahl entfernen">
+<!ENTITY xpunge.options.multi.button.compact.addall										"Alle hinzufügen">
+<!ENTITY xpunge.options.multi.button.compact.removeall								"Alle entfernen">
+<!ENTITY xpunge.options.multi.menu.choose.account											"Wähle gesamtes Konto">
+<!ENTITY xpunge.options.multi.menu.choose.folder											"Wähle diesen Ordner">
+<!ENTITY xpunge.options.timer.label.emptied.accounts									"Papierkörbe (d) und Junk Ordner [d] zum leeren:">
+<!ENTITY xpunge.options.timer.emptied.col.account											"Konto">
+<!ENTITY xpunge.options.timer.emptied.col.uri													"Uri">
+<!ENTITY xpunge.options.timer.emptied.col.trash												"Papierkorb">
+<!ENTITY xpunge.options.timer.emptied.col.junk												"Junk">
+<!ENTITY xpunge.options.timer.button.trash.addall											"Alle Papierkörbe hinzufügen">
+<!ENTITY xpunge.options.timer.button.trash.removeall									"Alle Papierkörbe entfernen">
+<!ENTITY xpunge.options.timer.button.junk.addall											"Alle Junk Ordner hinzufügen">
+<!ENTITY xpunge.options.timer.button.junk.removeall										"Alle Junk Ordner entfernen">
+<!ENTITY xpunge.options.timer.label.compact.accounts									"Konten/Ordner zum komprimieren:">
+<!ENTITY xpunge.options.timer.label.compact.picker										"Wähle Ordner zum komprimieren:">
+<!ENTITY xpunge.options.timer.button.compact.add											"Auswahl hinzufügen">
+<!ENTITY xpunge.options.timer.button.compact.remove										"Auswahl entfernen">
+<!ENTITY xpunge.options.timer.button.compact.addall										"Alle hinzufügen">
+<!ENTITY xpunge.options.timer.button.compact.removeall								"Alle Entfernen">
+<!ENTITY xpunge.options.timer.menu.choose.account											"Ganzes Konto wählen">
+<!ENTITY xpunge.options.timer.menu.choose.folder											"Diesen Ordner wählen">
+<!ENTITY xpunge.options.timer.checkbox.auto														"Xpunge automatisch">
+<!ENTITY xpunge.options.timer.auto.label.startup.suffix								"Minuten nach dem Start und jede">
+<!ENTITY xpunge.options.timer.auto.label.loop.suffix									"Minuten danach ausführen.">
+<!ENTITY xpunge.options.timer.auto.tooltip.startup										"Eine positive Zahl oder null. Null heißt kein Start von Xpunge.">
+<!ENTITY xpunge.options.timer.auto.tooltip.loop												"Eine positive Zahl oder null. Null heißt keine Schleife von Xpunge.">
+<!ENTITY xpunge.options.timer.checkbox.singleton											"Zeitsteuerung nur auf dem ersten Fenster aktivieren.">
+<!ENTITY xpunge.options.timer.checkbox.auto.absolute									"Xpunge täglich automatisch ausführen um">
+<!ENTITY xpunge.options.timer.auto.absolute.label.hours.suffix				":">
+<!ENTITY xpunge.options.timer.auto.absolute.label.minutes.suffix			".">
+<!ENTITY xpunge.options.settings.single.caption												"Xpunge">
+<!ENTITY xpunge.options.settings.single.checkbox.confirm							"Bestätigungsdialog vor dem ausführen von Xpunge zeigen.">
+<!ENTITY xpunge.options.settings.multi.caption												"MultiXpunge">
+<!ENTITY xpunge.options.settings.multi.checkbox.confirm								"Bestätigungsdialog vor dem ausführen von MultiXpunge zeigen.">
+
+<!-- Menus -->
+<!ENTITY xpunge.menu.name																							"Xpunge">
+<!ENTITY xpunge.menu.options.label																		"Einstellungen">
+<!ENTITY xpunge.menu.single.name																			"Xpunge">
+<!ENTITY xpunge.menu.single.call.label																"Xpunge jetzt ausführen">
+<!ENTITY xpunge.menu.multi.name																				"MultiXpunge">
+<!ENTITY xpunge.menu.multi.call.label																	"MultiXpunge jetzt ausführen">
+<!ENTITY xpunge.menu.timer.name																				"Zeitsteuerung">
+<!ENTITY xpunge.menu.timer.relative.disable.label											"Relative Zeitsteuerung deaktivieren (nur dieses Fenster)">
+<!ENTITY xpunge.menu.timer.absolute.disable.label											"Absolute Zeitsteuerung deaktivieren (nur dieses Fenster)">
+

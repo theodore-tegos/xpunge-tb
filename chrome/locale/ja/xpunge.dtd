@@ -1,0 +1,73 @@
+<!-- Buttons -->
+<!ENTITY xpunge.toolbar.single.button "Xpunge">
+<!ENTITY xpunge.toolbar.multi.button "MultiXpunge">
+<!ENTITY xpunge.toolbar.single.tooltip "Xpunge">
+<!ENTITY xpunge.toolbar.multi.tooltip "MultiXpunge">
+
+<!-- Options -->
+<!ENTITY xpunge.options.title "Xpunge 設定">
+<!ENTITY xpunge.options.tab.single "Xpunge (単一アカウント用)">
+<!ENTITY xpunge.options.tab.multi "MultiXpunge (マルチアカウント用)">
+<!ENTITY xpunge.options.tab.timer "自動実行タイマー">
+<!ENTITY xpunge.options.tab.settings "確認">
+<!ENTITY xpunge.options.single.checkbox.trash "ごみ箱を空にする">
+<!ENTITY xpunge.options.single.checkbox.junk "迷惑メールフォルダを空にする">
+<!ENTITY xpunge.options.single.checkbox.compact "フォルダを最適化する">
+<!ENTITY xpunge.options.multi.label.emptied.accounts "空にするごみ箱 (d) 迷惑メールフォルダ [d] :">
+<!ENTITY xpunge.options.multi.emptied.col.account "アカウント">
+<!ENTITY xpunge.options.multi.emptied.col.uri "URI">
+<!ENTITY xpunge.options.multi.emptied.col.trash "ごみ箱">
+<!ENTITY xpunge.options.multi.emptied.col.junk "迷惑メールフォルダ">
+<!ENTITY xpunge.options.multi.button.trash.addall "すべてのごみ箱を追加">
+<!ENTITY xpunge.options.multi.button.trash.removeall "すべてのごみ箱を削除">
+<!ENTITY xpunge.options.multi.button.junk.addall "すべての迷惑メールフォルダを追加">
+<!ENTITY xpunge.options.multi.button.junk.removeall "すべての迷惑メールフォルダを削除">
+<!ENTITY xpunge.options.multi.label.compact.accounts "フォルダの最適化をするアカウント/フォルダ 適用数">
+<!ENTITY xpunge.options.multi.label.compact.picker "フォルダの最適化をするフォルダを選択：">
+<!ENTITY xpunge.options.multi.button.compact.add "追 加">
+<!ENTITY xpunge.options.multi.button.compact.remove "削 除">
+<!ENTITY xpunge.options.multi.button.compact.addall "すべて追加">
+<!ENTITY xpunge.options.multi.button.compact.removeall "すべて削除">
+<!ENTITY xpunge.options.multi.menu.choose.account "このアカウントを選択">
+<!ENTITY xpunge.options.multi.menu.choose.folder "このフォルダを選択">
+<!ENTITY xpunge.options.timer.label.emptied.accounts "空にするごみ箱/迷惑メールフォルダ">
+<!ENTITY xpunge.options.timer.emptied.col.account "アカウント">
+<!ENTITY xpunge.options.timer.emptied.col.uri "URI">
+<!ENTITY xpunge.options.timer.emptied.col.trash "ごみ箱">
+<!ENTITY xpunge.options.timer.emptied.col.junk "迷惑メールフォルダ">
+<!ENTITY xpunge.options.timer.button.trash.addall "すべてのごみ箱を追加">
+<!ENTITY xpunge.options.timer.button.trash.removeall "すべてのごみ箱を削除">
+<!ENTITY xpunge.options.timer.button.junk.addall "すべての迷惑メールフォルダを追加">
+<!ENTITY xpunge.options.timer.button.junk.removeall "すべての迷惑メールフォルダを削除">
+<!ENTITY xpunge.options.timer.label.compact.accounts "フォルダの最適化をするアカウント/フォルダ 適用数">
+<!ENTITY xpunge.options.timer.label.compact.picker "フォルダの最適化をするフォルダを選択：">
+<!ENTITY xpunge.options.timer.button.compact.add "追 加">
+<!ENTITY xpunge.options.timer.button.compact.remove "削 除">
+<!ENTITY xpunge.options.timer.button.compact.addall "すべて追加">
+<!ENTITY xpunge.options.timer.button.compact.removeall "すべて削除">
+<!ENTITY xpunge.options.timer.menu.choose.account "このアカウントを選択">
+<!ENTITY xpunge.options.timer.menu.choose.folder "このフォルダを選択">
+<!ENTITY xpunge.options.timer.checkbox.auto "Xpunge をタイマーで自動実行する">
+<!ENTITY xpunge.options.timer.auto.label.startup.suffix "= 起動後および常時自動実行する時間 (分)">
+<!ENTITY xpunge.options.timer.auto.label.loop.suffix "= 常時自動実行する時間 (分)">
+<!ENTITY xpunge.options.timer.auto.tooltip.startup "正数か 0 (ゼロ) を入力してください。0 (ゼロ) は Xpunge が起動しない事を意味します。">
+<!ENTITY xpunge.options.timer.auto.tooltip.loop "正数か 0 (ゼロ) を入力してください。0 (ゼロ) は Xpunge が常時動作しない事を意味します。">
+<!ENTITY xpunge.options.timer.checkbox.singleton "最初のウィンドウ上のみタイマーを可能にする">
+<!ENTITY xpunge.options.timer.checkbox.auto.absolute "毎日 Xpunge を自動実行する時刻は">
+<!ENTITY xpunge.options.timer.auto.absolute.label.hours.suffix ":">
+<!ENTITY xpunge.options.timer.auto.absolute.label.minutes.suffix ".">
+<!ENTITY xpunge.options.settings.single.caption "Xpunge">
+<!ENTITY xpunge.options.settings.single.checkbox.confirm "Xpunge の実行前に確認ダイアログを表示する">
+<!ENTITY xpunge.options.settings.multi.caption "MultiXpunge">
+<!ENTITY xpunge.options.settings.multi.checkbox.confirm "MultiXpunge の実行前に確認ダイアログを表示する">
+
+<!-- Menus -->
+<!ENTITY xpunge.menu.name "Xpunge">
+<!ENTITY xpunge.menu.options.label "確認">
+<!ENTITY xpunge.menu.single.name "Xpunge">
+<!ENTITY xpunge.menu.single.call.label "今すぐ Xpunge を実行する">
+<!ENTITY xpunge.menu.multi.name "MultiXpunge">
+<!ENTITY xpunge.menu.multi.call.label "今すぐ MultiXpunge を実行する">
+<!ENTITY xpunge.menu.timer.name "自動実行タイマー">
+<!ENTITY xpunge.menu.timer.relative.disable.label "相対タイマーを無効にする (現在のウィンドウのみ)">
+<!ENTITY xpunge.menu.timer.absolute.disable.label "絶対タイマーを無効にする (現在のウィンドウのみ)">

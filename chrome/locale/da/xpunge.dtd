@@ -1,0 +1,74 @@
+<!-- Buttons -->
+<!ENTITY xpunge.toolbar.single.button						"Xpunge">
+<!ENTITY xpunge.toolbar.multi.button						"MultiXpunge">
+<!ENTITY xpunge.toolbar.single.tooltip						"Xpunge">
+<!ENTITY xpunge.toolbar.multi.tooltip						"MultiXpunge">
+
+<!-- Options -->
+<!ENTITY xpunge.options.title								"Xpunge præferencer">
+<!ENTITY xpunge.options.tab.single							"Xpunge">
+<!ENTITY xpunge.options.tab.multi							"MultiXpunge">
+<!ENTITY xpunge.options.tab.timer							"Timer">
+<!ENTITY xpunge.options.tab.settings                        "Indstillinger">
+<!ENTITY xpunge.options.single.checkbox.trash				"Tøm Papirkurv">
+<!ENTITY xpunge.options.single.checkbox.junk				"Tøm Spam-mapper">
+<!ENTITY xpunge.options.single.checkbox.compact				"Optimer mapper">
+<!ENTITY xpunge.options.multi.label.emptied.accounts		"Valgte Papirkurve (d) og Spam-mapper [d] der skal tømmes:">
+<!ENTITY xpunge.options.multi.emptied.col.account			"Konto">
+<!ENTITY xpunge.options.multi.emptied.col.uri				"Uri">
+<!ENTITY xpunge.options.multi.emptied.col.trash				"Papirkurv">
+<!ENTITY xpunge.options.multi.emptied.col.junk				"Spam">
+<!ENTITY xpunge.options.multi.button.trash.addall			"Tilføj alle Papirkurve">
+<!ENTITY xpunge.options.multi.button.trash.removeall		"Fjern alle Papirkurve">
+<!ENTITY xpunge.options.multi.button.junk.addall			"Tilføj alle Spam-mapper">
+<!ENTITY xpunge.options.multi.button.junk.removeall			"Fjern alle Spam-mapper">
+<!ENTITY xpunge.options.multi.label.compact.accounts		"Valgte konti/mapper der skal optimeres:">
+<!ENTITY xpunge.options.multi.label.compact.picker			"Vælg mappe der skal optimeres:">
+<!ENTITY xpunge.options.multi.button.compact.add			"Tilføj valgte">
+<!ENTITY xpunge.options.multi.button.compact.remove			"Fjern valgte">
+<!ENTITY xpunge.options.multi.button.compact.addall			"Tilføj alle">
+<!ENTITY xpunge.options.multi.button.compact.removeall		"Fjern alle">
+<!ENTITY xpunge.options.multi.menu.choose.account			"Vælg hele kontoen">
+<!ENTITY xpunge.options.multi.menu.choose.folder			"Vælg denne mappe">
+<!ENTITY xpunge.options.timer.label.emptied.accounts		"Valgte Papirkurve (d) og Spam-mapper [d] der skal tømmes:">
+<!ENTITY xpunge.options.timer.emptied.col.account			"Konto">
+<!ENTITY xpunge.options.timer.emptied.col.uri				"Uri">
+<!ENTITY xpunge.options.timer.emptied.col.trash				"Papirkurv">
+<!ENTITY xpunge.options.timer.emptied.col.junk				"Spam">
+<!ENTITY xpunge.options.timer.button.trash.addall			"Tilføj alle Papirkurve">
+<!ENTITY xpunge.options.timer.button.trash.removeall		"Fjern alle Papirkurve">
+<!ENTITY xpunge.options.timer.button.junk.addall			"Tilføj alle Spam-mapper">
+<!ENTITY xpunge.options.timer.button.junk.removeall			"Fjern alle Spam-mapper">
+<!ENTITY xpunge.options.timer.label.compact.accounts		"Valgte konti/mapper der skal optimeres:">
+<!ENTITY xpunge.options.timer.label.compact.picker			"Vælg mappe der skal optimeres:">
+<!ENTITY xpunge.options.timer.button.compact.add			"Tilføj valgte">
+<!ENTITY xpunge.options.timer.button.compact.remove			"Fjern valgte">
+<!ENTITY xpunge.options.timer.button.compact.addall			"Tilføj alle">
+<!ENTITY xpunge.options.timer.button.compact.removeall		"Fjern alle">
+<!ENTITY xpunge.options.timer.menu.choose.account			"Vælg hele kontoen">
+<!ENTITY xpunge.options.timer.menu.choose.folder			"Vælg denne mappe">
+<!ENTITY xpunge.options.timer.checkbox.auto					"Xpunge automatisk">
+<!ENTITY xpunge.options.timer.auto.label.startup.suffix		"minutter efter opstart og hver">
+<!ENTITY xpunge.options.timer.auto.label.loop.suffix		"minut herefter.">
+<!ENTITY xpunge.options.timer.auto.tooltip.startup			"Et positivt heltal eller nul. Nul betyder ingen opstartskørsel af Xpunge.">
+<!ENTITY xpunge.options.timer.auto.tooltip.loop				"Et positivt heltal eller nul. Nul betyder ingen gentagen kørsel af Xpunge.">
+<!ENTITY xpunge.options.timer.checkbox.singleton			"Slå kun timeren til på det første vindue.">
+<!ENTITY xpunge.options.timer.checkbox.auto.absolute				"Xpunge automatisk hver dag kl.">
+<!ENTITY xpunge.options.timer.auto.absolute.label.hours.suffix		":">
+<!ENTITY xpunge.options.timer.auto.absolute.label.minutes.suffix	".">
+<!ENTITY xpunge.options.settings.single.caption				"Xpunge">
+<!ENTITY xpunge.options.settings.single.checkbox.confirm    "Vis bekræftelsesdialog inden udførelse af Xpunge.">
+<!ENTITY xpunge.options.settings.multi.caption				"MultiXpunge">
+<!ENTITY xpunge.options.settings.multi.checkbox.confirm     "Vis bekræftelsesdialog inden udførelse af MultiXpunge.">
+
+<!-- Menus -->
+<!ENTITY xpunge.menu.name									"Xpunge">
+<!ENTITY xpunge.menu.options.label							"Præferencer">
+<!ENTITY xpunge.menu.single.name							"Xpunge">
+<!ENTITY xpunge.menu.single.call.label						"Xpunge nu">
+<!ENTITY xpunge.menu.multi.name								"MultiXpunge">
+<!ENTITY xpunge.menu.multi.call.label						"MultiXpunge nu">
+<!ENTITY xpunge.menu.timer.name								"Timer">
+<!ENTITY xpunge.menu.timer.relative.disable.label			"Deaktiver relative timer (kun dette vindue)">
+<!ENTITY xpunge.menu.timer.absolute.disable.label			"Deaktiver absolutte timer (kun dette vindue)">
+

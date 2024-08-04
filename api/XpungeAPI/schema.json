@@ -1,0 +1,13 @@
+[
+  {
+    "namespace": "XpungeAPI",
+    "functions": [
+      {
+        "name": "doMultiXpunge",
+        "type": "function",
+        "async": true,
+        "parameters": []
+      }
+    ]
+  }
+]

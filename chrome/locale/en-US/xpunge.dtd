@@ -1,0 +1,74 @@
+<!-- Buttons -->
+<!ENTITY xpunge.toolbar.single.button																	"Xpunge">
+<!ENTITY xpunge.toolbar.multi.button																	"MultiXpunge">
+<!ENTITY xpunge.toolbar.single.tooltip																"Xpunge">
+<!ENTITY xpunge.toolbar.multi.tooltip																	"MultiXpunge">
+
+<!-- Options -->
+<!ENTITY xpunge.options.title																					"Xpunge Preferences">
+<!ENTITY xpunge.options.tab.single																		"Xpunge">
+<!ENTITY xpunge.options.tab.multi																			"MultiXpunge">
+<!ENTITY xpunge.options.tab.timer																			"Timer">
+<!ENTITY xpunge.options.tab.settings																	"Settings">
+<!ENTITY xpunge.options.single.checkbox.trash													"Empty Trash Folder">
+<!ENTITY xpunge.options.single.checkbox.junk													"Empty Junk Folder(s)">
+<!ENTITY xpunge.options.single.checkbox.compact												"Compact Folders">
+<!ENTITY xpunge.options.multi.label.emptied.accounts										"Selected Trash Cans (d) And Junk Folders [d] To Be Emptied:">
+<!ENTITY xpunge.options.multi.emptied.col.account												"Account">
+<!ENTITY xpunge.options.multi.emptied.col.uri														"Uri">
+<!ENTITY xpunge.options.multi.emptied.col.trash													"Trash">
+<!ENTITY xpunge.options.multi.emptied.col.junk													"Junk">
+<!ENTITY xpunge.options.multi.button.trash.addall											"Add All Trash">
+<!ENTITY xpunge.options.multi.button.trash.removeall									"Remove All Trash">
+<!ENTITY xpunge.options.multi.button.junk.addall											"Add All Junk">
+<!ENTITY xpunge.options.multi.button.junk.removeall										"Remove All Junk">
+<!ENTITY xpunge.options.multi.label.compact.accounts									"Selected Accounts/Folders To Be Compacted:">
+<!ENTITY xpunge.options.multi.label.compact.picker										"Choose Folder To Compact:">
+<!ENTITY xpunge.options.multi.button.compact.add											"Add Selected">
+<!ENTITY xpunge.options.multi.button.compact.remove										"Remove Selected">
+<!ENTITY xpunge.options.multi.button.compact.addall										"Add All">
+<!ENTITY xpunge.options.multi.button.compact.removeall								"Remove All">
+<!ENTITY xpunge.options.multi.menu.choose.account											"Choose Whole Account">
+<!ENTITY xpunge.options.multi.menu.choose.folder											"Choose This Folder">
+<!ENTITY xpunge.options.timer.label.emptied.accounts										"Selected Trash Cans (d) And Junk Folders [d] To Be Emptied:">
+<!ENTITY xpunge.options.timer.emptied.col.account												"Account">
+<!ENTITY xpunge.options.timer.emptied.col.uri														"Uri">
+<!ENTITY xpunge.options.timer.emptied.col.trash													"Trash">
+<!ENTITY xpunge.options.timer.emptied.col.junk													"Junk">
+<!ENTITY xpunge.options.timer.button.trash.addall											"Add All Trash">
+<!ENTITY xpunge.options.timer.button.trash.removeall									"Remove All Trash">
+<!ENTITY xpunge.options.timer.button.junk.addall											"Add All Junk">
+<!ENTITY xpunge.options.timer.button.junk.removeall									"Remove All Junk">
+<!ENTITY xpunge.options.timer.label.compact.accounts									"Selected Accounts/Folders To Be Compacted:">
+<!ENTITY xpunge.options.timer.label.compact.picker										"Choose Folder To Compact:">
+<!ENTITY xpunge.options.timer.button.compact.add											"Add Selected">
+<!ENTITY xpunge.options.timer.button.compact.remove										"Remove Selected">
+<!ENTITY xpunge.options.timer.button.compact.addall										"Add All">
+<!ENTITY xpunge.options.timer.button.compact.removeall								"Remove All">
+<!ENTITY xpunge.options.timer.menu.choose.account											"Choose Whole Account">
+<!ENTITY xpunge.options.timer.menu.choose.folder											"Choose This Folder">
+<!ENTITY xpunge.options.timer.checkbox.auto														"Xpunge automatically">
+<!ENTITY xpunge.options.timer.auto.label.startup.suffix								"minutes after startup and every">
+<!ENTITY xpunge.options.timer.auto.label.loop.suffix									"minutes after that.">
+<!ENTITY xpunge.options.timer.auto.tooltip.startup										"A positive integer or zero. Zero means no startup Xpunge.">
+<!ENTITY xpunge.options.timer.auto.tooltip.loop												"A positive integer or zero. Zero means no loop Xpunge.">
+<!ENTITY xpunge.options.timer.checkbox.singleton											"Enable the timer only on the first window.">
+<!ENTITY xpunge.options.timer.checkbox.auto.absolute									"Xpunge automatically every day at">
+<!ENTITY xpunge.options.timer.auto.absolute.label.hours.suffix				":">
+<!ENTITY xpunge.options.timer.auto.absolute.label.minutes.suffix			".">
+<!ENTITY xpunge.options.settings.single.caption												"Xpunge">
+<!ENTITY xpunge.options.settings.single.checkbox.confirm							"Show confirmation dialog before executing Xpunge.">
+<!ENTITY xpunge.options.settings.multi.caption												"MultiXpunge">
+<!ENTITY xpunge.options.settings.multi.checkbox.confirm								"Show confirmation dialog before executing MultiXpunge.">
+
+<!-- Menus -->
+<!ENTITY xpunge.menu.name																							"Xpunge">
+<!ENTITY xpunge.menu.options.label																		"Preferences">
+<!ENTITY xpunge.menu.single.name																			"Xpunge">
+<!ENTITY xpunge.menu.single.call.label																"Call Xpunge Now">
+<!ENTITY xpunge.menu.multi.name																				"MultiXpunge">
+<!ENTITY xpunge.menu.multi.call.label																	"Call MultiXpunge Now">
+<!ENTITY xpunge.menu.timer.name																				"Timer">
+<!ENTITY xpunge.menu.timer.relative.disable.label											"Disable Relative Timer (This Window Only)">
+<!ENTITY xpunge.menu.timer.absolute.disable.label											"Disable Absolute Timer (This Window Only)">
+

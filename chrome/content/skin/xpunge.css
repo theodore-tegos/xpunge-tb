@@ -1,0 +1,13 @@
+/* CSS for unchecked tree checkbox cells */
+treechildren::-moz-tree-checkbox
+{
+  list-style-image: url("chrome://xpunge/content/skin/xpunge_tree_checkbox_unchecked.gif");
+}
+
+
+/* CSS for checked tree checkbox cells */
+treechildren::-moz-tree-checkbox(checked)
+{
+  list-style-image: url("chrome://xpunge/content/skin/xpunge_tree_checkbox_checked.gif");
+}
+

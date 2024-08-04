@@ -1,0 +1,74 @@
+<!-- Buttons -->
+<!ENTITY xpunge.toolbar.single.button					"Xpunge">
+<!ENTITY xpunge.toolbar.multi.button					"МультиXpunge">
+<!ENTITY xpunge.toolbar.single.tooltip					"Xpunge">
+<!ENTITY xpunge.toolbar.multi.tooltip					"МультиXpunge">
+
+<!-- Options -->
+<!ENTITY xpunge.options.title					"Xpunge — Настройки">
+<!ENTITY xpunge.options.tab.single					"Xpunge">
+<!ENTITY xpunge.options.tab.multi					"МультиXpunge">
+<!ENTITY xpunge.options.tab.timer					"Таймер">
+<!ENTITY xpunge.options.tab.settings					"Параметры">
+<!ENTITY xpunge.options.single.checkbox.trash					"Очистить папку «Удалённые»">
+<!ENTITY xpunge.options.single.checkbox.junk					"Очистить папку(и) «Спам»">
+<!ENTITY xpunge.options.single.checkbox.compact					"Сжать папки">
+<!ENTITY xpunge.options.multi.label.emptied.accounts					"Выбранные для очистки папки «Удалённые» (d) и «Спам» [d]:">
+<!ENTITY xpunge.options.multi.emptied.col.account					"Учётная запись">
+<!ENTITY xpunge.options.multi.emptied.col.uri					"Адрес">
+<!ENTITY xpunge.options.multi.emptied.col.trash					"Удалённые">
+<!ENTITY xpunge.options.multi.emptied.col.junk					"Спам">
+<!ENTITY xpunge.options.multi.button.trash.addall					"Добавить все «Удалённые»">
+<!ENTITY xpunge.options.multi.button.trash.removeall					"Исключить все «Удалённые»">
+<!ENTITY xpunge.options.multi.button.junk.addall					"Добавить все «Спам»">
+<!ENTITY xpunge.options.multi.button.junk.removeall					"Исключить все «Спам»">
+<!ENTITY xpunge.options.multi.label.compact.accounts					"Выбранные для сжатия учётные записи/папки:">
+<!ENTITY xpunge.options.multi.label.compact.picker			"Выберите папку для сжатия:">
+<!ENTITY xpunge.options.multi.button.compact.add					"Добавить выбранные">
+<!ENTITY xpunge.options.multi.button.compact.remove					"Исключить выбранные">
+<!ENTITY xpunge.options.multi.button.compact.addall					"Добавить все">
+<!ENTITY xpunge.options.multi.button.compact.removeall					"Исключить все">
+<!ENTITY xpunge.options.multi.menu.choose.account					"Выбрать учётную запись целиком">
+<!ENTITY xpunge.options.multi.menu.choose.folder					"Выбрать эту папку">
+<!ENTITY xpunge.options.timer.label.emptied.accounts					"Выбранные для очистки папки «Удалённые» (d) и «Спам» [d]:">
+<!ENTITY xpunge.options.timer.emptied.col.account					"Учётная запись">
+<!ENTITY xpunge.options.timer.emptied.col.uri					"Адрес">
+<!ENTITY xpunge.options.timer.emptied.col.trash					"Удалённые">
+<!ENTITY xpunge.options.timer.emptied.col.junk					"Спам">
+<!ENTITY xpunge.options.timer.button.trash.addall					"Добавить все «Удалённые»">
+<!ENTITY xpunge.options.timer.button.trash.removeall					"Исключить все «Удалённые»">
+<!ENTITY xpunge.options.timer.button.junk.addall					"Добавить все «Спам»">
+<!ENTITY xpunge.options.timer.button.junk.removeall					"Исключить все «Спам»">
+<!ENTITY xpunge.options.timer.label.compact.accounts					"Выбранные для сжатия учётные записи/папки:">
+<!ENTITY xpunge.options.timer.label.compact.picker			"Выберите папку для сжатия:">
+<!ENTITY xpunge.options.timer.button.compact.add					"Добавить выбранные">
+<!ENTITY xpunge.options.timer.button.compact.remove					"Исключить выбранные">
+<!ENTITY xpunge.options.timer.button.compact.addall					"Добавить все">
+<!ENTITY xpunge.options.timer.button.compact.removeall					"Исключить все">
+<!ENTITY xpunge.options.timer.menu.choose.account					"Выбрать учётную запись целиком">
+<!ENTITY xpunge.options.timer.menu.choose.folder					"Выбрать эту папку">
+<!ENTITY xpunge.options.timer.checkbox.auto					"Запускать Xpunge автоматически через">
+<!ENTITY xpunge.options.timer.auto.label.startup.suffix					"минут после запуска и каждые">
+<!ENTITY xpunge.options.timer.auto.label.loop.suffix					"минут после этого.">
+<!ENTITY xpunge.options.timer.auto.tooltip.startup					"Натуральное число. Ноль — не выполнять Xpunge при запуске.">
+<!ENTITY xpunge.options.timer.auto.tooltip.loop					"Натуральное число. Ноль — не повторять Xpunge циклически.">
+<!ENTITY xpunge.options.timer.checkbox.singleton					"Включить таймер только для первого окна">
+<!ENTITY xpunge.options.timer.checkbox.auto.absolute					"Каждый день автоматически запускать Xpunge в">
+<!ENTITY xpunge.options.timer.auto.absolute.label.hours.suffix					":">
+<!ENTITY xpunge.options.timer.auto.absolute.label.minutes.suffix					".">
+<!ENTITY xpunge.options.settings.single.caption					"Xpunge">
+<!ENTITY xpunge.options.settings.single.checkbox.confirm					"Перед выполнением Xpunge показать диалог подтверждения.">
+<!ENTITY xpunge.options.settings.multi.caption					"МультиXpunge">
+<!ENTITY xpunge.options.settings.multi.checkbox.confirm					"Перед выполнением МультиXpunge показать диалог подтверждения.">
+
+<!-- Menus -->
+<!ENTITY xpunge.menu.name					"Xpunge">
+<!ENTITY xpunge.menu.options.label					"Настройки">
+<!ENTITY xpunge.menu.single.name					"Xpunge">
+<!ENTITY xpunge.menu.single.call.label				"Вызвать Xpunge сейчас">
+<!ENTITY xpunge.menu.multi.name					"МультиXpunge">
+<!ENTITY xpunge.menu.multi.call.label					"Вызвать МультиXpunge сейчас">
+<!ENTITY xpunge.menu.timer.name					"Таймер">
+<!ENTITY xpunge.menu.timer.relative.disable.label			"Отключить относительный таймер (только для этого окна)">
+<!ENTITY xpunge.menu.timer.absolute.disable.label			"Отключить абсолютный таймер (только для этого окна)">
+

@@ -1,0 +1,69 @@
+<!ENTITY xpunge.toolbar.single.button "Xpunge">
+<!ENTITY xpunge.toolbar.multi.button "MultiXpunge">
+<!ENTITY xpunge.toolbar.single.tooltip "Xpunge">
+<!ENTITY xpunge.toolbar.multi.tooltip "MultiXpunge">
+<!ENTITY xpunge.options.title "Προτιμήσεις Xpunge">
+<!ENTITY xpunge.options.tab.single "Xpunge">
+<!ENTITY xpunge.options.tab.multi "MultiXpunge">
+<!ENTITY xpunge.options.tab.timer "Χρονοδιακόπτης">
+<!ENTITY xpunge.options.tab.settings "Ρυθμίσεις">
+<!ENTITY xpunge.options.single.checkbox.trash "Άδειασμα Κάδου">
+<!ENTITY xpunge.options.single.checkbox.junk "Άδειασμα Ανεπιθύμητων">
+<!ENTITY xpunge.options.single.checkbox.compact "Σύμπτυξη Φακέλων">
+<!ENTITY xpunge.options.multi.label.emptied.accounts "Επιλεγμένοι Κάδοι (d) Και Ανεπιθύμητα [d] Που Θα Αδειαστούν:">
+<!ENTITY xpunge.options.multi.emptied.col.account "Λογαριασμός">
+<!ENTITY xpunge.options.multi.emptied.col.uri "Διεύθυνση">
+<!ENTITY xpunge.options.multi.emptied.col.trash "Κάδος">
+<!ENTITY xpunge.options.multi.emptied.col.junk "Ανεπιθύμητα">
+<!ENTITY xpunge.options.multi.button.trash.addall "Προσθήκη Όλων Των Κάδων">
+<!ENTITY xpunge.options.multi.button.trash.removeall "Αφαίρεση Όλων Των Κάδων">
+<!ENTITY xpunge.options.multi.button.junk.addall "Προσθήκη Όλων Των Ανεπιθύμητων">
+<!ENTITY xpunge.options.multi.button.junk.removeall "Αφαίρεση Όλων Των Ανεπιθύμητων">
+<!ENTITY xpunge.options.multi.label.compact.accounts "Επιλεγμένοι Λογαριασμοί/Φάκελοι Που Θα Συμπτυχθούν:">
+<!ENTITY xpunge.options.multi.label.compact.picker "Επιλέξτε Φάκελο Για Σύμπτυξη:">
+<!ENTITY xpunge.options.multi.button.compact.add "Προσθήκη Επιλεγμένου">
+<!ENTITY xpunge.options.multi.button.compact.remove "Αφαίρεση Επιλεγμένο">
+<!ENTITY xpunge.options.multi.button.compact.addall "Προσθήκη Όλων">
+<!ENTITY xpunge.options.multi.button.compact.removeall "Αφαίρεση Όλων">
+<!ENTITY xpunge.options.multi.menu.choose.account "Επιλογή Ολόκληρου Του Λογαριασμού">
+<!ENTITY xpunge.options.multi.menu.choose.folder "Επιλογή Αυτού Του Φακέλου">
+<!ENTITY xpunge.options.timer.label.emptied.accounts "Επιλεγμένοι Κάδοι (d) Και Ανεπιθύμητα [d] Που Θα Αδειαστούν:">
+<!ENTITY xpunge.options.timer.emptied.col.account "Λογαριασμός">
+<!ENTITY xpunge.options.timer.emptied.col.uri "Διεύθυνση">
+<!ENTITY xpunge.options.timer.emptied.col.trash "Κάδος">
+<!ENTITY xpunge.options.timer.emptied.col.junk "Ανεπιθύμητα">
+<!ENTITY xpunge.options.timer.button.trash.addall "Προσθήκη Όλων Των Κάδων">
+<!ENTITY xpunge.options.timer.button.trash.removeall "Αφαίρεση Όλων Των Κάδων">
+<!ENTITY xpunge.options.timer.button.junk.addall "Προσθήκη Όλων Των Ανεπιθύμητων">
+<!ENTITY xpunge.options.timer.button.junk.removeall "Αφαίρεση Όλων Των Ανεπιθύμητων">
+<!ENTITY xpunge.options.timer.label.compact.accounts "Επιλεγμένοι Λογαριασμοί/Φάκελοι Που Θα Συμπτυχθούν:">
+<!ENTITY xpunge.options.timer.label.compact.picker "Επιλέξτε Φάκελο Για Σύμπτυξη:">
+<!ENTITY xpunge.options.timer.button.compact.add "Προσθήκη Επιλεγμένου">
+<!ENTITY xpunge.options.timer.button.compact.remove "Αφαίρεση Επιλεγμένου">
+<!ENTITY xpunge.options.timer.button.compact.addall "Προσθήκη Όλων">
+<!ENTITY xpunge.options.timer.button.compact.removeall "Αφαίρεση Όλων">
+<!ENTITY xpunge.options.timer.menu.choose.account "Επιλογή Ολόκληρου Του Λογαριασμού">
+<!ENTITY xpunge.options.timer.menu.choose.folder "Επιλογή Αυτού Του Φακέλου">
+<!ENTITY xpunge.options.timer.checkbox.auto "Αυτόματο Xpunge">
+<!ENTITY xpunge.options.timer.auto.label.startup.suffix "λεπτά μετά την έναρξη και κάθε">
+<!ENTITY xpunge.options.timer.auto.label.loop.suffix "λεπτά στη συνέχεια.">
+<!ENTITY xpunge.options.timer.auto.tooltip.startup "Θετικός ακέραιος ή 0. Μηδέν σημαίνει μη ενεργοποίηση του εναρκτήριου Xpunge.">
+<!ENTITY xpunge.options.timer.auto.tooltip.loop "Θετικός ακέραιος ή 0. Μηδέν σημαίνει απενεργοποίηση του επαναλαμβανόμενου Xpunge.">
+<!ENTITY xpunge.options.timer.checkbox.singleton "Ενεργοποίηση του χρονοδιακόπτη μόνο στο πρώτο παράθυρο.">
+<!ENTITY xpunge.options.timer.checkbox.auto.absolute "Αυτόματο Xpunge κάθε μέρα στις">
+<!ENTITY xpunge.options.timer.auto.absolute.label.hours.suffix ":">
+<!ENTITY xpunge.options.timer.auto.absolute.label.minutes.suffix ".">
+<!ENTITY xpunge.options.settings.single.caption	"Xpunge">
+<!ENTITY xpunge.options.settings.single.checkbox.confirm "Εμφάνιση διαλόγου επιβεβαίωσης πριν την εκτέλεση του Xpunge.">
+<!ENTITY xpunge.options.settings.multi.caption "MultiXpunge">
+<!ENTITY xpunge.options.settings.multi.checkbox.confirm "Εμφάνιση διαλόγου επιβεβαίωσης πριν την εκτέλεση του MultiXpunge.">
+<!ENTITY xpunge.menu.name "Xpunge">
+<!ENTITY xpunge.menu.options.label "Προτιμήσεις">
+<!ENTITY xpunge.menu.single.name "Xpunge">
+<!ENTITY xpunge.menu.single.call.label "Καλέστε Το Xpunge Τώρα">
+<!ENTITY xpunge.menu.multi.name "MultiXpunge">
+<!ENTITY xpunge.menu.multi.call.label "Καλέστε Το MultiXpunge Τώρα">
+<!ENTITY xpunge.menu.timer.name "Χρονοδιακόπτης">
+<!ENTITY xpunge.menu.timer.relative.disable.label "Απενεργοποίηση Σχετικού Χρονοδιακόπτη (Μόνο Στο Παρών Παράθυρο)">
+<!ENTITY xpunge.menu.timer.absolute.disable.label "Απενεργοποίηση Απόλυτου Χρονοδιακόπτη (Μόνο Στο Παρών Παράθυρο)">
+

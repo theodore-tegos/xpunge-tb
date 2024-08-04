@@ -1,0 +1,74 @@
+<!-- Buttons -->
+<!ENTITY xpunge.toolbar.single.button					"Xpunge">
+<!ENTITY xpunge.toolbar.multi.button					"MultiXpunge">
+<!ENTITY xpunge.toolbar.single.tooltip					"Xpunge">
+<!ENTITY xpunge.toolbar.multi.tooltip					"MultiXpunge">
+                                                                
+<!-- Options -->                                                
+<!ENTITY xpunge.options.title						"Préférences Xpunge">
+<!ENTITY xpunge.options.tab.single					"Xpunge">
+<!ENTITY xpunge.options.tab.multi					"MultiXpunge">
+<!ENTITY xpunge.options.tab.timer					"Minuterie">
+<!ENTITY xpunge.options.tab.settings					"Réglages">
+<!ENTITY xpunge.options.single.checkbox.trash				"Vider la corbeille">
+<!ENTITY xpunge.options.single.checkbox.junk				"Vider le(s) dossier(s) Indésirables">
+<!ENTITY xpunge.options.single.checkbox.compact				"Compacter les dossiers">
+<!ENTITY xpunge.options.multi.label.emptied.accounts			"Sélectionnez les Corbeilles (d) et dossiers Indésirables [d] à compacter :">
+<!ENTITY xpunge.options.multi.emptied.col.account			"Comptes">
+<!ENTITY xpunge.options.multi.emptied.col.uri				"Uri">
+<!ENTITY xpunge.options.multi.emptied.col.trash				"Corbeilles">
+<!ENTITY xpunge.options.multi.emptied.col.junk				"Indésirables">
+<!ENTITY xpunge.options.multi.button.trash.addall			"Toutes les corbeilles">
+<!ENTITY xpunge.options.multi.button.trash.removeall			"Aucune corbeille">
+<!ENTITY xpunge.options.multi.button.junk.addall			"Toutes les dossiers Indésirables">
+<!ENTITY xpunge.options.multi.button.junk.removeall			"Aucun dossier Indésirables">
+<!ENTITY xpunge.options.multi.label.compact.accounts			"Comptes et dossiers à compacter :">
+<!ENTITY xpunge.options.multi.label.compact.picker			"Choisissez un compte/dossier à compacter :">
+<!ENTITY xpunge.options.multi.button.compact.add			"Ajouter">
+<!ENTITY xpunge.options.multi.button.compact.remove			"Enlever">
+<!ENTITY xpunge.options.multi.button.compact.addall			"Tous les dossiers">
+<!ENTITY xpunge.options.multi.button.compact.removeall			"Aucun dossier">
+<!ENTITY xpunge.options.multi.menu.choose.account			"Tous les dossiers">
+<!ENTITY xpunge.options.multi.menu.choose.folder			"Choisissez ce répertoire">
+<!ENTITY xpunge.options.timer.label.emptied.accounts			"Sélectionnez les Corbeilles (d) et dossiers Indésirables [d] à compacter :">
+<!ENTITY xpunge.options.timer.emptied.col.account			"Compte">
+<!ENTITY xpunge.options.timer.emptied.col.uri				"Uri">
+<!ENTITY xpunge.options.timer.emptied.col.trash				"Corbeille">
+<!ENTITY xpunge.options.timer.emptied.col.junk				"Indésirables">
+<!ENTITY xpunge.options.timer.button.trash.addall			"Toutes les Corbeilles">
+<!ENTITY xpunge.options.timer.button.trash.removeall			"Aucune Corbeilles">
+<!ENTITY xpunge.options.timer.button.junk.addall			"Tous les dossiers Indésirables">
+<!ENTITY xpunge.options.timer.button.junk.removeall			"Aucun dossiers Indésirables">
+<!ENTITY xpunge.options.timer.label.compact.accounts			"Comptes et dossiers à compacter :">
+<!ENTITY xpunge.options.timer.label.compact.picker			"Choisissez un compte/dossier à compacter :">
+<!ENTITY xpunge.options.timer.button.compact.add			"Ajouter">
+<!ENTITY xpunge.options.timer.button.compact.remove			"Enlever">
+<!ENTITY xpunge.options.timer.button.compact.addall			"Tous les dossiers">
+<!ENTITY xpunge.options.timer.button.compact.removeall			"Aucun dossier">
+<!ENTITY xpunge.options.timer.menu.choose.account			"Tous les dossiers">
+<!ENTITY xpunge.options.timer.menu.choose.folder			"Choisissez les corbeilles à vider">
+<!ENTITY xpunge.options.timer.checkbox.auto				"Compacter automatiquement">
+<!ENTITY xpunge.options.timer.auto.label.startup.suffix			"minutes après le démarrage, puis toutes les">
+<!ENTITY xpunge.options.timer.auto.label.loop.suffix			"minutes.">
+<!ENTITY xpunge.options.timer.auto.tooltip.startup			"Indiquez un nombre entier, supérieur ou égal à zéro.">
+<!ENTITY xpunge.options.timer.auto.tooltip.loop				"Indiquez un nombre entier, supérieur ou égal à zéro.">
+<!ENTITY xpunge.options.timer.checkbox.singleton			"Activer la minuterie uniquement sur la première session.">
+<!ENTITY xpunge.options.timer.checkbox.auto.absolute			"Compactage automatique quotidien à">
+<!ENTITY xpunge.options.timer.auto.absolute.label.hours.suffix		"h">
+<!ENTITY xpunge.options.timer.auto.absolute.label.minutes.suffix	"">
+<!ENTITY xpunge.options.settings.single.caption				"Xpunge">
+<!ENTITY xpunge.options.settings.single.checkbox.confirm		"Demander confirmation avant compactage.">
+<!ENTITY xpunge.options.settings.multi.caption				"MultiXpunge">
+<!ENTITY xpunge.options.settings.multi.checkbox.confirm			"Demander confirmation avant compactage multiple.">
+
+<!-- Menus -->                                                  
+<!ENTITY xpunge.menu.name						"Xpunge">
+<!ENTITY xpunge.menu.options.label					"Préférences">
+<!ENTITY xpunge.menu.single.name					"Xpunge">
+<!ENTITY xpunge.menu.single.call.label					"Compacter maintenant">
+<!ENTITY xpunge.menu.multi.name						"MultiXpunge">
+<!ENTITY xpunge.menu.multi.call.label					"Compacter les comptes maintenant">
+<!ENTITY xpunge.menu.timer.name						"Minuterie">
+<!ENTITY xpunge.menu.timer.relative.disable.label			"Désactiver l'heure relative (de ce compte uniquement)">
+<!ENTITY xpunge.menu.timer.absolute.disable.label			"Désactiver l'heure (de ce compte uniquement)">
+

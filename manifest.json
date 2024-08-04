@@ -1,0 +1,59 @@
+{
+  "manifest_version": 2,
+
+  "applications": {
+    "gecko": {
+      "id": "{786abda0-fd14-d247-bf69-38b2fc18491b}",
+      "strict_min_version": "115.0a1",
+      "strict_max_version": "115.*"
+    }
+  },
+
+  "name": "Xpunge",
+
+  "description": "Empties the Trash and Junk folders, and compacts folders in multiple Thunderbird accounts.",
+
+  "version": "4.0.2",
+
+  "author": "Theodore Tegos",
+
+  "homepage_url": "http://www.theodoretegos.net/mozilla/tb/index.html",
+
+  "icons": {
+    "16": "chrome/content/skin/icon16.png",
+    "32": "chrome/content/skin/icon32.png"
+  },
+
+  "browser_action": {
+    "default_title": "MultiXpunge",
+    "default_icon": {
+      "16": "chrome/content/skin/xpunge_multi_toolbar_small.png",
+      "24": "chrome/content/skin/xpunge_multi_toolbar_large.png"
+    }
+  },
+
+  "experiment_apis": {
+    "WindowListener": {
+      "schema": "api/WindowListener/schema.json",
+      "parent": {
+        "scopes": ["addon_parent"],
+        "paths": [["WindowListener"]],
+        "script": "api/WindowListener/implementation.js"
+      }
+    },
+    "XpungeAPI": {
+      "schema": "api/XpungeAPI/schema.json",
+      "parent": {
+        "scopes": ["addon_parent"],
+        "paths": [["XpungeAPI"]],
+        "script": "api/XpungeAPI/implementation.js"
+      }
+    }
+  },
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}

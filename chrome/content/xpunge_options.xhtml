@@ -1,0 +1,524 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?> 
+<?xml-stylesheet href="chrome://messenger/skin/folderMenus.css" type="text/css"?>
+<?xml-stylesheet href="chrome://messenger/skin/folderPane.css" type="text/css"?>
+<?xml-stylesheet href="chrome://messenger/skin/preferences/preferences.css" type="text/css"?>
+<?xml-stylesheet href="chrome://messenger/content/bindings.css" type="text/css"?>
+<?xml-stylesheet href="chrome://messenger/skin/messenger.css" type="text/css"?>
+<?xml-stylesheet href="chrome://messenger/skin/input-fields.css" type="text/css"?>
+<?xml-stylesheet href="chrome://xpunge/content/skin/xpunge.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://xpunge/locale/xpunge.dtd">
+
+<dialog id="xpunge_options"
+  xmlns:html="http://www.w3.org/1999/xhtml"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+  title="&xpunge.options.title;"
+  onload="xpunge_LoadOptions()"
+  buttons="accept, cancel"
+  persist="screenX screenY width height"
+  style="width:840px; height:570px;"
+  flex="1">
+
+  <script type="application/javascript" src="chrome://xpunge/content/xpunge_imports.js"/>
+  <script type="application/javascript" src="chrome://xpunge/content/xpunge_options_single.js"/>
+  <script type="application/javascript" src="chrome://xpunge/content/xpunge_options_multi.js"/>
+  <script type="application/javascript" src="chrome://xpunge/content/xpunge_options_timer.js"/>
+  <script type="application/javascript" src="chrome://xpunge/content/xpunge_options_settings.js"/>
+  <script type="application/javascript" src="chrome://xpunge/content/xpunge_options.js"/>
+
+  <script src="chrome://messenger/content/customElements.js"/>
+
+  <script type="application/javascript">
+    document.addEventListener("dialogaccept", function(event) {
+      xpunge_SaveOptions();
+    });
+  </script>
+
+  <stringbundleset id="xpunge_stringbundleset">
+    <stringbundle id="xpunge_strings" src="chrome://xpunge/locale/xpunge_strings.properties"/>
+  </stringbundleset>
+
+  <spacer style="height:1.0em;"/>
+
+  <tabbox style="width:846px; height:390px;" flex="1">
+    <tabs>
+      <tab label="&xpunge.options.tab.single;"/>
+      <tab label="&xpunge.options.tab.multi;"/>
+      <tab label="&xpunge.options.tab.timer;"/>
+      <tab label="&xpunge.options.tab.settings;"/>
+    </tabs>
+    <tabpanels flex="1">
+      <tabpanel id="xpunge_options_tab_single" flex="1">
+        <hbox flex="1">
+          <vbox flex="0" style="-moz-user-focus: normal;">
+            <spacer style="height:30px;"/>
+
+            <checkbox id="xpunge_options_single_trash"
+              label="&xpunge.options.single.checkbox.trash;"
+              prefstring="extensions.xpunge.single.trash"/>
+
+            <spacer style="height:1.0em;"/>
+
+            <checkbox id="xpunge_options_single_junk"
+              label="&xpunge.options.single.checkbox.junk;"
+              prefstring="extensions.xpunge.single.junk"/>
+
+            <spacer style="height:1.0em;"/>
+
+            <checkbox id="xpunge_options_single_compact"
+              label="&xpunge.options.single.checkbox.compact;"
+              prefstring="extensions.xpunge.single.compact"/>
+          </vbox>
+
+          <vbox flex="1" style="-moz-user-focus: normal;">
+          </vbox>
+        </hbox>
+      </tabpanel>
+
+      <tabpanel id="xpunge_options_tab_multi" flex="1">
+        <vbox id="xpunge_options_multi_v_box" flex="1">
+          <hbox id="xpunge_options_multi_trash_box" flex="1">
+            <vbox flex="1">
+              <spacer style="height:8px;"/>
+
+              <label id="xpunge_options_multi_label_emptied_accounts"
+                control="xpunge_options_multi_emptied_accounts"
+                value="&xpunge.options.multi.label.emptied.accounts;"/>
+
+              <spacer style="height:5px;"/>
+
+              <tree id="xpunge_options_multi_emptied_accounts" flex="1" style="width:655px; height:240px;"
+                onfocus="xpunge_multi_doHandleEmptiedAccountsFocus();"
+                editable="true" seltype="single" hidecolumnpicker="true">
+                <treecols>
+                  <treecol id="xpunge_options_multi_emptied_accounts_col_account" label="&xpunge.options.multi.emptied.col.account;" style="width:300px; min-width:300px; text-align: left;" persist="width"/>
+                  <splitter class="tree-splitter"/>
+                  <treecol id="xpunge_options_multi_emptied_accounts_col_uri" label="&xpunge.options.multi.emptied.col.uri;" style="width:200px; min-width:200px; text-align: left;" persist="width"/>
+                  <splitter class="tree-splitter"/>
+                  <treecol id="xpunge_options_multi_emptied_accounts_col_trash" label="&xpunge.options.multi.emptied.col.trash;" type="checkbox" editable="true" style="width:70px; min-width:70px; text-align: center;" persist="width"/>
+                  <splitter class="tree-splitter"/>
+                  <treecol id="xpunge_options_multi_emptied_accounts_col_junk" label="&xpunge.options.multi.emptied.col.junk;" type="checkbox" editable="true" style="width:70px; min-width:70px; text-align: center;" persist="width"/>
+                </treecols>
+
+                <treechildren/>
+              </tree>
+
+              <spacer style="height:5px;"/>
+            </vbox>
+
+            <spacer style="width:20px;"/>
+
+            <vbox flex="0">
+              <spacer style="height:57px;"/>
+
+              <button id="xpunge_options_multi_trash_add_all"
+                class="dialog"
+                label="&xpunge.options.multi.button.trash.addall;"
+                oncommand="xpunge_multi_doAddTrashAllAccounts();"
+                disabled="false"/>
+
+              <spacer style="height:8px;"/>
+
+              <button id="xpunge_options_multi_trash_remove_all"
+                class="dialog"
+                label="&xpunge.options.multi.button.trash.removeall;"
+                oncommand="xpunge_multi_doRemoveTrashAllAccounts();"
+                disabled="false"/>
+
+              <spacer style="height:20px;"/>
+
+              <button id="xpunge_options_multi_junk_add_all"
+                class="dialog"
+                label="&xpunge.options.multi.button.junk.addall;"
+                oncommand="xpunge_multi_doAddJunkAllAccounts();"
+                disabled="false"/>
+
+              <spacer style="height:8px;"/>
+
+              <button id="xpunge_options_multi_junk_remove_all"
+                class="dialog"
+                label="&xpunge.options.multi.button.junk.removeall;"
+                oncommand="xpunge_multi_doRemoveJunkAllAccounts();"
+                disabled="false"/>
+
+              <spacer style="height:10px;"/>
+            </vbox>
+          </hbox>
+
+          <spacer style="height:12px;"/>
+
+          <hbox id="xpunge_options_multi_compact_box" flex="1">
+            <vbox flex="1">
+              <spacer style="height:8px;"/>
+
+              <label id="xpunge_options_multi_label_compact_accounts"
+                control="xpunge_options_multi_compact_accounts"
+                value="&xpunge.options.multi.label.compact.accounts;"/>
+
+              <spacer style="height:5px;"/>
+
+              <richlistbox id="xpunge_options_multi_compact_accounts" flex="1"
+                style="width:380px; height:240px;"
+                onselect="xpunge_multi_doHandleCompactAccountsSelect();"
+                onfocus="xpunge_multi_doHandleCompactAccountsFocus();">
+              </richlistbox>
+
+              <spacer style="height:5px;"/>
+            </vbox>
+
+            <spacer style="width:20px;"/>
+
+            <vbox flex="0">
+              <spacer style="height:57px;"/>
+
+              <button id="xpunge_options_multi_compact_add"
+                class="dialog"
+                label="&xpunge.options.multi.button.compact.add;"
+                oncommand="xpunge_multi_doAddCompactAccounts();"
+                disabled="true"/>
+
+              <spacer style="height:8px;"/>
+
+              <button id="xpunge_options_multi_compact_remove"
+                class="dialog"
+                label="&xpunge.options.multi.button.compact.remove;"
+                oncommand="xpunge_multi_doRemoveCompactAccounts();"
+                disabled="true"/>
+
+              <spacer style="height:20px;"/>
+
+              <button id="xpunge_options_multi_compact_add_all"
+                class="dialog"
+                label="&xpunge.options.multi.button.compact.addall;"
+                oncommand="xpunge_multi_doAddCompactAllAccounts();"
+                disabled="true"/>
+
+              <spacer style="height:8px;"/>
+
+              <button id="xpunge_options_multi_compact_remove_all"
+                class="dialog"
+                label="&xpunge.options.multi.button.compact.removeall;"
+                oncommand="xpunge_multi_doRemoveCompactAllAccounts();"
+                disabled="true"/>
+
+              <spacer style="height:4px;"/>
+            </vbox>
+
+            <spacer style="width:20px;"/>
+
+            <vbox flex="1">
+              <spacer style="height:8px;"/>
+
+              <label value="&xpunge.options.multi.label.compact.picker;"
+                control="xpunge_options_multi_compact_picker"/>
+
+              <spacer style="height:6px;"/>
+
+              <menulist id="xpunge_options_multi_compact_picker"
+                class="folderMenuItem"
+                style="width:260px;"
+                onfocus="xpunge_multi_doHandleCompactPickerFocus();"
+                displayformat="verbose">
+                <menupopup is="folder-menupopup" class="menulist-menupopup"
+                  mode="filing"
+                  showAccountsFileHere="true" showFileHereLabel="true"
+                  oncommand="xpunge_multi_SetCompactFolderPicker(event.target._folder,'xpunge_options_multi_compact_picker','none')"/>
+              </menulist>
+
+              <vbox id="xpunge_options_multi_focus_area" flex="1" style="-moz-user-focus: normal;"
+                onfocus="xpunge_multi_doHandleClearFocus();"/>
+            </vbox>
+          </hbox>
+        </vbox>
+      </tabpanel>
+
+      <tabpanel id="xpunge_options_tab_timer" flex="1">
+        <vbox id="xpunge_options_timer_v_box" flex="1">
+          <hbox id="xpunge_options_timer_trash_box" flex="1">
+            <vbox flex="1">
+              <spacer style="height:8px;"/>
+
+              <label id="xpunge_options_timer_label_emptied_accounts"
+                control="xpunge_options_timer_emptied_accounts"
+                value="&xpunge.options.timer.label.emptied.accounts;"/>
+
+              <spacer style="height:6px;"/>
+
+              <tree id="xpunge_options_timer_emptied_accounts" flex="1" style="width:655px; height:250px;"
+              	onfocus="xpunge_timer_doHandleEmptiedAccountsFocus();"
+                editable="true" seltype="single" hidecolumnpicker="true">
+                <treecols>
+                  <treecol id="xpunge_options_timer_emptied_accounts_col_account" label="&xpunge.options.timer.emptied.col.account;" style="width:300px; min-width:300px; text-align: left;" persist="width"/> 
+                  <splitter class="tree-splitter"/>
+                  <treecol id="xpunge_options_timer_emptied_accounts_col_uri" label="&xpunge.options.timer.emptied.col.uri;" style="width:200px; min-width:200px; text-align: left;" persist="width"/> 
+                  <splitter class="tree-splitter"/>
+                  <treecol id="xpunge_options_timer_emptied_accounts_col_trash" label="&xpunge.options.timer.emptied.col.trash;" type="checkbox" editable="true" style="width:70px; min-width:70px; text-align: center;" persist="width"/> 
+                  <splitter class="tree-splitter"/>
+                  <treecol id="xpunge_options_timer_emptied_accounts_col_junk" label="&xpunge.options.timer.emptied.col.junk;" type="checkbox" editable="true" style="width:70px; min-width:70px; text-align: center;" persist="width"/> 
+                </treecols>
+
+                <treechildren/>
+              </tree>
+
+              <spacer style="height:1px;"/>
+            </vbox>
+
+            <spacer style="width:20px;"/>
+
+            <vbox flex="0">
+              <spacer style="height:26px;"/>
+
+              <button id="xpunge_options_timer_trash_add_all"
+                class="dialog"
+                label="&xpunge.options.timer.button.trash.addall;"
+                oncommand="xpunge_timer_doAddTrashAllAccounts();"
+                disabled="false"/>
+
+              <spacer style="height:2px;"/>
+
+              <button id="xpunge_options_timer_trash_remove_all"
+                class="dialog"
+                label="&xpunge.options.timer.button.trash.removeall;"
+                oncommand="xpunge_timer_doRemoveTrashAllAccounts();"
+                disabled="false"/>
+
+              <spacer style="height:6px;"/>
+
+              <button id="xpunge_options_timer_junk_add_all"
+                class="dialog"
+                label="&xpunge.options.timer.button.junk.addall;"
+                oncommand="xpunge_timer_doAddJunkAllAccounts();"
+                disabled="false"/>
+
+              <spacer style="height:2px;"/>
+
+              <button id="xpunge_options_timer_junk_remove_all"
+                class="dialog"
+                label="&xpunge.options.timer.button.junk.removeall;"
+                oncommand="xpunge_timer_doRemoveJunkAllAccounts();"
+                disabled="false"/>
+
+              <spacer style="height:1px;"/>
+            </vbox>
+          </hbox>
+
+          <spacer style="height:5px;"/>
+
+          <hbox id="xpunge_options_timer_compact_box" flex="1">
+            <vbox flex="1">
+              <spacer style="height:8px;"/>
+
+              <label id="xpunge_options_timer_label_compact_accounts"
+                control="xpunge_options_timer_compact_accounts"
+                value="&xpunge.options.timer.label.compact.accounts;"/>
+
+              <spacer style="height:6px;"/>
+
+              <richlistbox id="xpunge_options_timer_compact_accounts" flex="1"
+                style="width:380px; height:240px;"
+                onselect="xpunge_timer_doHandleCompactAccountsSelect();"
+                onfocus="xpunge_timer_doHandleCompactAccountsFocus();">
+              </richlistbox>
+
+              <spacer style="height:6px;"/>
+            </vbox>
+
+            <spacer style="width:20px;"/>
+
+            <vbox flex="0">
+              <spacer style="height:21px;"/>
+
+              <button id="xpunge_options_timer_compact_add"
+                class="dialog"
+                label="&xpunge.options.timer.button.compact.add;"
+                oncommand="xpunge_timer_doAddCompactAccounts();"
+                disabled="true"/>
+
+              <spacer style="height:2px;"/>
+
+              <button id="xpunge_options_timer_compact_remove"
+                class="dialog"
+                label="&xpunge.options.timer.button.compact.remove;"
+                oncommand="xpunge_timer_doRemoveCompactAccounts();"
+                disabled="true"/>
+
+              <spacer style="height:6px;"/>
+
+              <button id="xpunge_options_timer_compact_add_all"
+                class="dialog"
+                label="&xpunge.options.timer.button.compact.addall;"
+                oncommand="xpunge_timer_doAddCompactAllAccounts();"
+                disabled="true"/>
+
+              <spacer style="height:2px;"/>
+
+              <button id="xpunge_options_timer_compact_remove_all"
+                class="dialog"
+                label="&xpunge.options.timer.button.compact.removeall;"
+                oncommand="xpunge_timer_doRemoveCompactAllAccounts();"
+                disabled="true"/>
+
+              <spacer style="height:1px;"/>
+            </vbox>
+
+            <spacer style="width:20px;"/>
+
+            <vbox flex="1">
+              <spacer style="height:8px;"/>
+
+              <label value="&xpunge.options.timer.label.compact.picker;"
+                control="xpunge_options_timer_compact_picker"/>
+
+              <spacer style="height:6px;"/>
+
+              <menulist id="xpunge_options_timer_compact_picker"
+                class="folderMenuItem"
+                style="width:260px;"
+                onfocus="xpunge_timer_doHandleCompactPickerFocus();"
+                displayformat="verbose">
+                  <menupopup is="folder-menupopup" class="menulist-menupopup"
+                    mode="filing"
+                    showAccountsFileHere="true" showFileHereLabel="true"
+                    oncommand="xpunge_timer_SetCompactFolderPicker(event.target._folder,'xpunge_options_timer_compact_picker','none')"/>
+              </menulist>
+
+              <vbox id="xpunge_options_timer_focus_area" flex="1" style="-moz-user-focus: normal;"
+                onfocus="xpunge_timer_doHandleClearFocus();"/>
+            </vbox>
+          </hbox>
+          
+          <spacer style="height:13px;"/>
+          
+          <hbox align="center">
+            <checkbox id="xpunge_options_timer_auto_check"
+              label="&xpunge.options.timer.checkbox.auto;"
+              oncommand="xpunge_timer_updateTimerFocusItems();"
+              prefstring="extensions.xpunge.timer.auto.check"/>
+            <html:input id="xpunge_options_timer_auto_startup"
+              size="5" 
+              cols="5"
+              maxlength="5"
+              tooltiptext="&xpunge.options.timer.auto.tooltip.startup;"
+              oninput="xpunge_timer_checkStartupIntervalInput(this)"
+              prefstring="extensions.xpunge.timer.auto.startup"/>
+            <label id="xpunge_options_timer_auto_label_startup_suffix"
+              control="xpunge_options_timer_auto_startup"
+              value="&xpunge.options.timer.auto.label.startup.suffix;"/>
+            <html:input id="xpunge_options_timer_auto_loop"
+              size="5" 
+              cols="5"
+              maxlength="5"
+              tooltiptext="&xpunge.options.timer.auto.tooltip.loop;"
+              oninput="xpunge_timer_checkLoopIntervalInput(this)"
+              prefstring="extensions.xpunge.timer.auto.loop"/>
+            <label id="xpunge_options_timer_auto_label_loop_suffix"
+              control="xpunge_options_timer_auto_loop"
+              value="&xpunge.options.timer.auto.label.loop.suffix;"/>
+          </hbox>
+
+          <spacer style="height:13px;"/>
+          
+          <hbox align="center">
+            <checkbox id="xpunge_options_timer_auto_absolute_check"
+              label="&xpunge.options.timer.checkbox.auto.absolute;"
+              oncommand="xpunge_timer_updateAbsoluteTimerFocusItems();"
+              prefstring="extensions.xpunge.timer.auto.absolute.check"/>
+            <menulist id="xpunge_options_timer_auto_absolute_hours"
+              prefstring="extensions.xpunge.timer.auto.absolute.hours">
+              <menupopup>
+                <menuitem label="00" selected="true"/>
+                <menuitem label="01"/><menuitem label="02"/><menuitem label="03"/><menuitem label="04"/>
+                <menuitem label="05"/><menuitem label="06"/><menuitem label="07"/><menuitem label="08"/>
+                <menuitem label="09"/><menuitem label="10"/><menuitem label="11"/><menuitem label="12"/>
+                <menuitem label="13"/><menuitem label="14"/><menuitem label="15"/><menuitem label="16"/>
+                <menuitem label="17"/><menuitem label="18"/><menuitem label="19"/><menuitem label="20"/>
+                <menuitem label="21"/><menuitem label="22"/><menuitem label="23"/>
+              </menupopup>
+            </menulist>
+            <label id="xpunge_options_timer_auto_absolute_label_hours_suffix"
+              control="xpunge_options_timer_auto_absolute_hours"
+              value="&xpunge.options.timer.auto.absolute.label.hours.suffix;"/>
+            <menulist id="xpunge_options_timer_auto_absolute_minutes"
+              prefstring="extensions.xpunge.timer.auto.absolute.minutes">
+              <menupopup>
+                <menuitem label="00" selected="true"/>
+                <menuitem label="01"/><menuitem label="02"/><menuitem label="03"/><menuitem label="04"/>
+                <menuitem label="05"/><menuitem label="06"/><menuitem label="07"/><menuitem label="08"/>
+                <menuitem label="09"/><menuitem label="10"/><menuitem label="11"/><menuitem label="12"/>
+                <menuitem label="13"/><menuitem label="14"/><menuitem label="15"/><menuitem label="16"/>
+                <menuitem label="17"/><menuitem label="18"/><menuitem label="19"/><menuitem label="20"/>
+                <menuitem label="21"/><menuitem label="22"/><menuitem label="23"/><menuitem label="24"/>
+                <menuitem label="25"/><menuitem label="26"/><menuitem label="27"/><menuitem label="28"/>
+                <menuitem label="29"/><menuitem label="30"/>
+                <menuitem label="31"/><menuitem label="32"/><menuitem label="33"/><menuitem label="34"/>
+                <menuitem label="35"/><menuitem label="36"/><menuitem label="37"/><menuitem label="38"/>
+                <menuitem label="39"/><menuitem label="40"/><menuitem label="41"/><menuitem label="42"/>
+                <menuitem label="43"/><menuitem label="44"/><menuitem label="45"/><menuitem label="46"/>
+                <menuitem label="47"/><menuitem label="48"/><menuitem label="49"/><menuitem label="50"/>
+                <menuitem label="51"/><menuitem label="52"/><menuitem label="53"/><menuitem label="54"/>
+                <menuitem label="55"/><menuitem label="56"/><menuitem label="57"/><menuitem label="58"/>
+                <menuitem label="59"/>
+              </menupopup>
+            </menulist>
+            <label id="xpunge_options_timer_auto_absolute_label_minutes_suffix"
+              control="xpunge_options_timer_auto_absolute_minutes"
+              value="&xpunge.options.timer.auto.absolute.label.minutes.suffix;"/>
+          </hbox>
+
+          <spacer style="height:12px;"/>
+          
+          <hbox align="center">
+            <checkbox id="xpunge_options_timer_singleton_check"
+              label="&xpunge.options.timer.checkbox.singleton;"
+              prefstring="extensions.xpunge.timer.singleton"/>
+          </hbox>
+
+          <spacer style="height:1px;"/>
+        </vbox>
+      </tabpanel>
+
+      <tabpanel id="xpunge_options_tab_settings" flex="1">
+        <vbox flex="1">
+          <spacer style="height:15px;"/>
+
+          <groupbox id="xpunge_options_settings_single" orient="vertical">
+            <hbox class="groupbox-title">
+              <label class="header">"&xpunge.options.settings.single.caption;"</label>
+            </hbox>
+
+            <spacer style="height:6px;"/>
+
+            <checkbox id="xpunge_options_settings_single_confirm"
+              label="&xpunge.options.settings.single.checkbox.confirm;"
+              prefstring="extensions.xpunge.settings.single.confirm"/>
+
+            <spacer style="height:10px;"/>
+          </groupbox>
+
+          <spacer style="height:30px;"/>
+
+          <groupbox id="xpunge_options_settings_multi" orient="vertical">
+            <hbox class="groupbox-title">
+              <label class="header">"&xpunge.options.settings.multi.caption;"</label>
+            </hbox>
+
+            <spacer style="height:6px;"/>
+
+            <checkbox id="xpunge_options_settings_multi_confirm"
+              label="&xpunge.options.settings.multi.checkbox.confirm;"
+              prefstring="extensions.xpunge.settings.multi.confirm"/>
+
+            <spacer style="height:10px;"/>
+          </groupbox>
+        </vbox>
+      </tabpanel>
+    </tabpanels>
+  </tabbox>
+
+  <spacer style="height:28px;"/>
+
+</dialog>
+
