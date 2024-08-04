@@ -1,0 +1,315 @@
+{
+    "extensions.{786abda0-fd14-d247-bf69-38b2fc18491b}.description": {
+        "message": "Leert Papierkörbe, Junk Ordner und komprimiert Ordner auch in mehreren Konten von Thunderbird."
+    },
+    "xpunge.menu.multi.call.label": {
+        "message": "MultiXpunge jetzt ausführen"
+    },
+    "xpunge.menu.multi.name": {
+        "message": "MultiXpunge"
+    },
+    "xpunge.menu.name": {
+        "message": "Xpunge"
+    },
+    "xpunge.menu.options.label": {
+        "message": "Einstellungen"
+    },
+    "xpunge.menu.single.call.label": {
+        "message": "Xpunge jetzt ausführen"
+    },
+    "xpunge.menu.single.name": {
+        "message": "Xpunge"
+    },
+    "xpunge.menu.timer.absolute.disable.label": {
+        "message": "Absolute Zeitsteuerung deaktivieren"
+    },
+    "xpunge.menu.timer.name": {
+        "message": "Zeitsteuerung"
+    },
+    "xpunge.menu.timer.relative.disable.label": {
+        "message": "Relative Zeitsteuerung deaktivieren"
+    },
+    "xpunge.options.multi.button.compact.add": {
+        "message": "Auswahl hinzufügen"
+    },
+    "xpunge.options.multi.button.compact.addall": {
+        "message": "Alle hinzufügen"
+    },
+    "xpunge.options.multi.button.compact.remove": {
+        "message": "Auswahl entfernen"
+    },
+    "xpunge.options.multi.button.compact.removeall": {
+        "message": "Alle entfernen"
+    },
+    "xpunge.options.multi.button.junk.addall": {
+        "message": "Alle Junk Ordner hinzufügen"
+    },
+    "xpunge.options.multi.button.junk.removeall": {
+        "message": "Alle Junk Ordner entfernen"
+    },
+    "xpunge.options.multi.button.trash.addall": {
+        "message": "Alle Papierkörbe hinzufügen"
+    },
+    "xpunge.options.multi.button.trash.removeall": {
+        "message": "Alle Papierkörbe entfernen"
+    },
+    "xpunge.options.multi.emptied.col.account": {
+        "message": "Konto"
+    },
+    "xpunge.options.multi.emptied.col.junk": {
+        "message": "Junk"
+    },
+    "xpunge.options.multi.emptied.col.trash": {
+        "message": "Papierkorb"
+    },
+    "xpunge.options.multi.emptied.col.uri": {
+        "message": "Uri"
+    },
+    "xpunge.options.multi.label.compact.accounts": {
+        "message": "Konten/Ordner zum komprimieren"
+    },
+    "xpunge.options.multi.label.compact.picker": {
+        "message": "Wähle Ordner zum komprimieren:"
+    },
+    "xpunge.options.multi.label.emptied.accounts": {
+        "message": "Papierkörbe und Junk Ordner zum leeren:"
+    },
+    "xpunge.options.multi.menu.choose.account": {
+        "message": "Wähle gesamtes Konto"
+    },
+    "xpunge.options.multi.menu.choose.folder": {
+        "message": "Wähle diesen Ordner"
+    },
+    "xpunge.options.settings.multi.caption": {
+        "message": "MultiXpunge"
+    },
+    "xpunge.options.settings.multi.checkbox.confirm": {
+        "message": "Bestätigungsdialog vor dem ausführen von MultiXpunge zeigen."
+    },
+    "xpunge.options.settings.single.caption": {
+        "message": "Xpunge"
+    },
+    "xpunge.options.settings.single.checkbox.confirm": {
+        "message": "Bestätigungsdialog vor dem ausführen von Xpunge zeigen."
+    },
+    "xpunge.options.single.checkbox.compact": {
+        "message": "Ordner komprimieren"
+    },
+    "xpunge.options.single.checkbox.junk": {
+        "message": "Leere Junk Ordner"
+    },
+    "xpunge.options.single.checkbox.trash": {
+        "message": "Leere Papierkörbe"
+    },
+    "xpunge.options.tab.multi": {
+        "message": "MultiXpunge"
+    },
+    "xpunge.options.tab.settings": {
+        "message": "Einstellungen"
+    },
+    "xpunge.options.tab.single": {
+        "message": "Xpunge"
+    },
+    "xpunge.options.tab.timer": {
+        "message": "Zeitsteuerung"
+    },
+    "xpunge.options.timer.auto.absolute.label.hours.suffix": {
+        "message": ":"
+    },
+    "xpunge.options.timer.auto.absolute.label.minutes.suffix": {
+        "message": "."
+    },
+    "xpunge.options.timer.auto.label.loop.suffix": {
+        "message": "Minuten danach ausführen."
+    },
+    "xpunge.options.timer.auto.label.startup.suffix": {
+        "message": "Minuten nach dem Start und jede"
+    },
+    "xpunge.options.timer.auto.tooltip.loop": {
+        "message": "Eine positive Zahl oder null. Null heißt keine Schleife von Xpunge."
+    },
+    "xpunge.options.timer.auto.tooltip.startup": {
+        "message": "Eine positive Zahl oder null. Null heißt kein Start von Xpunge."
+    },
+    "xpunge.options.timer.button.compact.add": {
+        "message": "Auswahl hinzufügen"
+    },
+    "xpunge.options.timer.button.compact.addall": {
+        "message": "Alle hinzufügen"
+    },
+    "xpunge.options.timer.button.compact.remove": {
+        "message": "Auswahl entfernen"
+    },
+    "xpunge.options.timer.button.compact.removeall": {
+        "message": "Alle Entfernen"
+    },
+    "xpunge.options.timer.button.junk.addall": {
+        "message": "Alle Junk Ordner hinzufügen"
+    },
+    "xpunge.options.timer.button.junk.removeall": {
+        "message": "Alle Junk Ordner entfernen"
+    },
+    "xpunge.options.timer.button.trash.addall": {
+        "message": "Alle Papierkörbe hinzufügen"
+    },
+    "xpunge.options.timer.button.trash.removeall": {
+        "message": "Alle Papierkörbe entfernen"
+    },
+    "xpunge.options.timer.checkbox.auto": {
+        "message": "Xpunge automatisch"
+    },
+    "xpunge.options.timer.checkbox.auto.absolute": {
+        "message": "Xpunge täglich automatisch ausführen um"
+    },
+    "xpunge.options.timer.emptied.col.account": {
+        "message": "Konto"
+    },
+    "xpunge.options.timer.emptied.col.junk": {
+        "message": "Junk"
+    },
+    "xpunge.options.timer.emptied.col.trash": {
+        "message": "Papierkorb"
+    },
+    "xpunge.options.timer.emptied.col.uri": {
+        "message": "Uri"
+    },
+    "xpunge.options.timer.label.compact.accounts": {
+        "message": "Konten/Ordner zum komprimieren:"
+    },
+    "xpunge.options.timer.label.compact.picker": {
+        "message": "Wähle Ordner zum komprimieren:"
+    },
+    "xpunge.options.timer.label.emptied.accounts": {
+        "message": "Papierkörbe und Junk Ordner zum leeren:"
+    },
+    "xpunge.options.timer.menu.choose.account": {
+        "message": "Ganzes Konto wählen"
+    },
+    "xpunge.options.timer.menu.choose.folder": {
+        "message": "Diesen Ordner wählen"
+    },
+    "xpunge.options.title": {
+        "message": "Xpunge Einstellungen"
+    },
+    "xpunge.toolbar.multi.button": {
+        "message": "MultiXpunge"
+    },
+    "xpunge.toolbar.multi.tooltip": {
+        "message": "MultiXpunge"
+    },
+    "xpunge.toolbar.single.button": {
+        "message": "Xpunge"
+    },
+    "xpunge.toolbar.single.tooltip": {
+        "message": "Xpunge"
+    },
+    "xpunge_multi_str_compact_already_added": {
+        "message": "Der gewählte Account/Ordner wurde bereits zur \"komprimieren\" Liste hinzugefügt."
+    },
+    "xpunge_multi_str_compact_belongs": {
+        "message": "von"
+    },
+    "xpunge_multi_str_compact_invalid_account": {
+        "message": "FEHLER: Das gewählte Konto oder der gewählte Ordner ist ungültig!"
+    },
+    "xpunge_multi_str_compact_invalid_addall_children": {
+        "message": "FEHLER: Die Liste der verfügbaren Konten/Ordner haben eine ungültige Anzahl von Unterordnern"
+    },
+    "xpunge_multi_str_compact_save_fixed_msg": {
+        "message": "FEHLER: Ungültige Einträge während des Speicherns in der \"komprimieren\" Liste für MultiXpunge gefunden.\n\nEs wurde versucht, diese zu reparieren.\n\nÖffnen Sie die Xpunge Einstellungen erneut um zu sehen was sich geändert hat."
+    },
+    "xpunge_multi_str_compact_whole": {
+        "message": "(gesamt)"
+    },
+    "xpunge_multi_str_confirm_dialog_title": {
+        "message": "MultiXpunge bestätigen"
+    },
+    "xpunge_multi_str_confirm_msg_body": {
+        "message": "MultiXpunge wurde mit folgenden Einstellungen eingerichtet:\n\n\n\nZu leerenden Papierkörbe: $P1$\n\nZu leerende Junk Ordner: $P2$\n\nZu komprimierende Konten/Ordner: $P3$\n\n\n\nSind Sie sicher fortfahren zu wollen?",
+        "placeholders": {
+            "P1": {
+                "content": "$1"
+            },
+            "P2": {
+                "content": "$2"
+            },
+            "P3": {
+                "content": "$3"
+            }
+        }
+    },
+    "xpunge_multi_str_junk_save_fixed_msg": {
+        "message": "FEHLER: Ungültige Einträge während des Speicherns in der \"Junk Ordner\" Liste für MultiXpunge gefunden.\n\nEs wurde versucht, diese zu reparieren.\n\nÖffnen Sie die Xpunge Einstellungen erneut um zu sehen was sich geändert hat."
+    },
+    "xpunge_multi_str_trash_save_fixed_msg": {
+        "message": "FEHLER: Ungültige Einträge während des Speicherns in der \"Papierkorb\" Liste für MultiXpunge gefunden.\n\nEs wurde versucht, diese zu reparieren.\n\nÖffnen Sie die Xpunge Einstellungen erneut um zu sehen was sich geändert hat."
+    },
+    "xpunge_pref_migration_error_1": {
+        "message": "Es ist ein Problem beim Umzug der Xpunge Einstellungen aufgetreten!"
+    },
+    "xpunge_pref_migration_error_2": {
+        "message": "FEHLER"
+    },
+    "xpunge_pref_migration_error_3": {
+        "message": "Öffnen Sie das Einstellungsfenster von Xpunge um Ihre Einstellungen zu prüfen. Wenn etwas nicht in Ordung zu sein scheint, können Sie die Einstellungen erneut vornehmen oder versuchen Sie die alten Einstellungen wiederherzustellen."
+    },
+    "xpunge_pref_migration_error_4": {
+        "message": "Für nähere Informationen über das wiederherstellen der alten Einstellungen, besuchen Sie bitte die folgende Webseite:"
+    },
+    "xpunge_single_str_confirm_dialog_title": {
+        "message": "Xpunge bestätigen"
+    },
+    "xpunge_single_str_confirm_msg_body": {
+        "message": "Xpunge wurde für das Konto \\$P1$\\ eingerichtet. Das sind Ihre Einstellungen:\n\n\n\nPapierkorb leeren: $P2$\n\nJunkordner leeren: $P3$\n\nOrdner komprimieren: $P4$\n\n\n\nSind Sie sicher fortfahren zu wollen?",
+        "placeholders": {
+            "P1": {
+                "content": "$1"
+            },
+            "P2": {
+                "content": "$2"
+            },
+            "P3": {
+                "content": "$3"
+            },
+            "P4": {
+                "content": "$4"
+            }
+        }
+    },
+    "xpunge_str_no": {
+        "message": "Nein"
+    },
+    "xpunge_str_yes": {
+        "message": "Ja"
+    },
+    "xpunge_timer_str_compact_already_added": {
+        "message": "Der gewählte Account/Ordner wurde bereits zur \"komprimieren\" Liste."
+    },
+    "xpunge_timer_str_compact_belongs": {
+        "message": "von"
+    },
+    "xpunge_timer_str_compact_invalid_account": {
+        "message": "FEHLER: Das gewählte Konto oder der gewählte Ordner ist ungültig!"
+    },
+    "xpunge_timer_str_compact_invalid_addall_children": {
+        "message": "FEHLER: Die Liste der verfügbaren Konten/Ordner haben eine ungültige Anzahl von Unterordnern"
+    },
+    "xpunge_timer_str_compact_save_fixed_msg": {
+        "message": "FEHLER: Ungültige Einträge während des Speicherns in der \"komprimieren\" Liste für Timereinstellungen.\n\nEs wurde versucht, diese zu reparieren.\n\nÖffnen Sie die Xpunge Einstellungen erneut um zu sehen was sich geändert hat."
+    },
+    "xpunge_timer_str_compact_whole": {
+        "message": "(gesamt)"
+    },
+    "xpunge_timer_str_junk_save_fixed_msg": {
+        "message": "FEHLER: Ungültige Einträge während des Speicherns in der \"Junk Ordner\" Liste für Timereinstellungen.\n\nEs wurde versucht, diese zu reparieren.\n\nÖffnen Sie die Xpunge Einstellungen erneut um zu sehen was sich geändert hat."
+    },
+    "xpunge_timer_str_loop_invalid_integer": {
+        "message": "Ungültiger Wert im Schleifen Intervall Feld"
+    },
+    "xpunge_timer_str_startup_invalid_integer": {
+        "message": "Ungültiger Wert im Startintervall Feld"
+    },
+    "xpunge_timer_str_trash_save_fixed_msg": {
+        "message": "FEHLER: Ungültige Einträge während des Speicherns in der \"Papierkorb\" Liste für Timereinstellungen.\n\nEs wurde versucht, diese zu reparieren.\n\nÖffnen Sie die Xpunge Einstellungen erneut um zu sehen was sich geändert hat."
+    }
+}

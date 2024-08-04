@@ -1,0 +1,315 @@
+{
+    "extensions.{786abda0-fd14-d247-bf69-38b2fc18491b}.description": {
+        "message": "Permet de compacter tous les dossiers et de vider Corbeille et Indésirables de tous vos comptes."
+    },
+    "xpunge.menu.multi.call.label": {
+        "message": "Compacter les comptes maintenant"
+    },
+    "xpunge.menu.multi.name": {
+        "message": "MultiXpunge"
+    },
+    "xpunge.menu.name": {
+        "message": "Xpunge"
+    },
+    "xpunge.menu.options.label": {
+        "message": "Préférences"
+    },
+    "xpunge.menu.single.call.label": {
+        "message": "Compacter maintenant"
+    },
+    "xpunge.menu.single.name": {
+        "message": "Xpunge"
+    },
+    "xpunge.menu.timer.absolute.disable.label": {
+        "message": "Désactiver l'heure"
+    },
+    "xpunge.menu.timer.name": {
+        "message": "Minuterie"
+    },
+    "xpunge.menu.timer.relative.disable.label": {
+        "message": "Désactiver l'heure relative"
+    },
+    "xpunge.options.multi.button.compact.add": {
+        "message": "Ajouter"
+    },
+    "xpunge.options.multi.button.compact.addall": {
+        "message": "Tous les dossiers"
+    },
+    "xpunge.options.multi.button.compact.remove": {
+        "message": "Enlever"
+    },
+    "xpunge.options.multi.button.compact.removeall": {
+        "message": "Aucun dossier"
+    },
+    "xpunge.options.multi.button.junk.addall": {
+        "message": "Toutes les dossiers Indésirables"
+    },
+    "xpunge.options.multi.button.junk.removeall": {
+        "message": "Aucun dossier Indésirables"
+    },
+    "xpunge.options.multi.button.trash.addall": {
+        "message": "Toutes les corbeilles"
+    },
+    "xpunge.options.multi.button.trash.removeall": {
+        "message": "Aucune corbeille"
+    },
+    "xpunge.options.multi.emptied.col.account": {
+        "message": "Comptes"
+    },
+    "xpunge.options.multi.emptied.col.junk": {
+        "message": "Indésirables"
+    },
+    "xpunge.options.multi.emptied.col.trash": {
+        "message": "Corbeilles"
+    },
+    "xpunge.options.multi.emptied.col.uri": {
+        "message": "Uri"
+    },
+    "xpunge.options.multi.label.compact.accounts": {
+        "message": "Comptes et dossiers à compacter :"
+    },
+    "xpunge.options.multi.label.compact.picker": {
+        "message": "Choisissez un compte/dossier à compacter :"
+    },
+    "xpunge.options.multi.label.emptied.accounts": {
+        "message": "Sélectionnez les Corbeilles et dossiers Indésirables à compacter :"
+    },
+    "xpunge.options.multi.menu.choose.account": {
+        "message": "Tous les dossiers"
+    },
+    "xpunge.options.multi.menu.choose.folder": {
+        "message": "Choisissez ce répertoire"
+    },
+    "xpunge.options.settings.multi.caption": {
+        "message": "MultiXpunge"
+    },
+    "xpunge.options.settings.multi.checkbox.confirm": {
+        "message": "Demander confirmation avant compactage multiple."
+    },
+    "xpunge.options.settings.single.caption": {
+        "message": "Xpunge"
+    },
+    "xpunge.options.settings.single.checkbox.confirm": {
+        "message": "Demander confirmation avant compactage."
+    },
+    "xpunge.options.single.checkbox.compact": {
+        "message": "Compacter les dossiers"
+    },
+    "xpunge.options.single.checkbox.junk": {
+        "message": "Vider le(s) dossier(s) Indésirables"
+    },
+    "xpunge.options.single.checkbox.trash": {
+        "message": "Vider la corbeille"
+    },
+    "xpunge.options.tab.multi": {
+        "message": "MultiXpunge"
+    },
+    "xpunge.options.tab.settings": {
+        "message": "Réglages"
+    },
+    "xpunge.options.tab.single": {
+        "message": "Xpunge"
+    },
+    "xpunge.options.tab.timer": {
+        "message": "Minuterie"
+    },
+    "xpunge.options.timer.auto.absolute.label.hours.suffix": {
+        "message": "h"
+    },
+    "xpunge.options.timer.auto.absolute.label.minutes.suffix": {
+        "message": ""
+    },
+    "xpunge.options.timer.auto.label.loop.suffix": {
+        "message": "minutes."
+    },
+    "xpunge.options.timer.auto.label.startup.suffix": {
+        "message": "minutes après le démarrage, puis toutes les"
+    },
+    "xpunge.options.timer.auto.tooltip.loop": {
+        "message": "Indiquez un nombre entier, supérieur ou égal à zéro."
+    },
+    "xpunge.options.timer.auto.tooltip.startup": {
+        "message": "Indiquez un nombre entier, supérieur ou égal à zéro."
+    },
+    "xpunge.options.timer.button.compact.add": {
+        "message": "Ajouter"
+    },
+    "xpunge.options.timer.button.compact.addall": {
+        "message": "Tous les dossiers"
+    },
+    "xpunge.options.timer.button.compact.remove": {
+        "message": "Enlever"
+    },
+    "xpunge.options.timer.button.compact.removeall": {
+        "message": "Aucun dossier"
+    },
+    "xpunge.options.timer.button.junk.addall": {
+        "message": "Tous les dossiers Indésirables"
+    },
+    "xpunge.options.timer.button.junk.removeall": {
+        "message": "Aucun dossiers Indésirables"
+    },
+    "xpunge.options.timer.button.trash.addall": {
+        "message": "Toutes les Corbeilles"
+    },
+    "xpunge.options.timer.button.trash.removeall": {
+        "message": "Aucune Corbeilles"
+    },
+    "xpunge.options.timer.checkbox.auto": {
+        "message": "Compacter automatiquement"
+    },
+    "xpunge.options.timer.checkbox.auto.absolute": {
+        "message": "Compactage automatique quotidien à"
+    },
+    "xpunge.options.timer.emptied.col.account": {
+        "message": "Compte"
+    },
+    "xpunge.options.timer.emptied.col.junk": {
+        "message": "Indésirables"
+    },
+    "xpunge.options.timer.emptied.col.trash": {
+        "message": "Corbeille"
+    },
+    "xpunge.options.timer.emptied.col.uri": {
+        "message": "Uri"
+    },
+    "xpunge.options.timer.label.compact.accounts": {
+        "message": "Comptes et dossiers à compacter :"
+    },
+    "xpunge.options.timer.label.compact.picker": {
+        "message": "Choisissez un compte/dossier à compacter :"
+    },
+    "xpunge.options.timer.label.emptied.accounts": {
+        "message": "Sélectionnez les Corbeilles et dossiers Indésirables à compacter :"
+    },
+    "xpunge.options.timer.menu.choose.account": {
+        "message": "Tous les dossiers"
+    },
+    "xpunge.options.timer.menu.choose.folder": {
+        "message": "Choisissez les corbeilles à vider"
+    },
+    "xpunge.options.title": {
+        "message": "Préférences Xpunge"
+    },
+    "xpunge.toolbar.multi.button": {
+        "message": "MultiXpunge"
+    },
+    "xpunge.toolbar.multi.tooltip": {
+        "message": "MultiXpunge"
+    },
+    "xpunge.toolbar.single.button": {
+        "message": "Xpunge"
+    },
+    "xpunge.toolbar.single.tooltip": {
+        "message": "Xpunge"
+    },
+    "xpunge_multi_str_compact_already_added": {
+        "message": "Le dossier/compte sélectionné est déjà présent dans la liste \"Dossiers à compacter\""
+    },
+    "xpunge_multi_str_compact_belongs": {
+        "message": "de"
+    },
+    "xpunge_multi_str_compact_invalid_account": {
+        "message": "ERREUR : Le dossier/compte sélectionné n'est pas valide !"
+    },
+    "xpunge_multi_str_compact_invalid_addall_children": {
+        "message": "ERREUR : La liste des comptes/dossiers disponibles a un nombre de children invalide !"
+    },
+    "xpunge_multi_str_compact_save_fixed_msg": {
+        "message": "ERREUR : Des entrées invalides ont été trouvées dans la liste \"Dossiers à compacter\" de MultiXpunge.\n\nUne correction a été tenté.\n\nVous pouvez ouvrir les préférences de Xpunge pour voir ce qui a changé."
+    },
+    "xpunge_multi_str_compact_whole": {
+        "message": "(entier)"
+    },
+    "xpunge_multi_str_confirm_dialog_title": {
+        "message": "Confirmation de MultiXpunge"
+    },
+    "xpunge_multi_str_confirm_msg_body": {
+        "message": "Une demande de compactage a été demandé en utilisant les paramètres suivants :\n\n\n\nCorbeilles à vider : $P1$\n\nDossiers Indésirables à vider : $P2$\n\nComptes/dossiers à compacter : $P3$\n\n\n\nVoulez-vous vraiment continuer ?",
+        "placeholders": {
+            "P1": {
+                "content": "$1"
+            },
+            "P2": {
+                "content": "$2"
+            },
+            "P3": {
+                "content": "$3"
+            }
+        }
+    },
+    "xpunge_multi_str_junk_save_fixed_msg": {
+        "message": "ERREUR : Des entrées invalides ont été trouvée dans la liste \"Indésirable\" de MultiXpunge.\n\nUne correction a été tenté.\n\nVous pouvez ouvrir les préférences de Xpunge pour voir ce qui a changé."
+    },
+    "xpunge_multi_str_trash_save_fixed_msg": {
+        "message": "ERREUR : Des entrées invalides ont été trouvée dans la liste \"Corbeilles à vider\" de MultiXpunge.\n\nUne correction a été tenté.\n\nVous pouvez ouvrir les préférences de Xpunge pour voir ce qui a changé."
+    },
+    "xpunge_pref_migration_error_1": {
+        "message": "Il y a eu un problème durant la migration de vos préférences Xpunge !"
+    },
+    "xpunge_pref_migration_error_2": {
+        "message": "ERREUR"
+    },
+    "xpunge_pref_migration_error_3": {
+        "message": "Veuillez ouvrir vos Préférences Xpunge et vérifier vos réglages. Si quelques-chose vous semble louche, vous pouvez, soit entièrement reconfigurer vos paramètres, soit tenter de récupérer vos paramètres précédents."
+    },
+    "xpunge_pref_migration_error_4": {
+        "message": "Pour plus d'information sur le \"Comment récupérer mes préférences\", veuillez visiter la page web suivante :"
+    },
+    "xpunge_single_str_confirm_dialog_title": {
+        "message": "Confirmation de Xpunge"
+    },
+    "xpunge_single_str_confirm_msg_body": {
+        "message": "Une demande de compactage du compte \"$P1$\" a été demandé en utilisant les paramètres suivants :\n\n\n\nVider la corbeille : $P2$\n\nVider les Indésirables : $P3$\n\nCompacter les dossiers : $P4$\n\n\n\nVoulez-vous vraiment continuer ?",
+        "placeholders": {
+            "P1": {
+                "content": "$1"
+            },
+            "P2": {
+                "content": "$2"
+            },
+            "P3": {
+                "content": "$3"
+            },
+            "P4": {
+                "content": "$4"
+            }
+        }
+    },
+    "xpunge_str_no": {
+        "message": "non"
+    },
+    "xpunge_str_yes": {
+        "message": "oui"
+    },
+    "xpunge_timer_str_compact_already_added": {
+        "message": "Le compte ou dossier sélectionné est déjà désigné comme étant à compacter."
+    },
+    "xpunge_timer_str_compact_belongs": {
+        "message": "on"
+    },
+    "xpunge_timer_str_compact_invalid_account": {
+        "message": "ERREUR : Le dossier/compte sélectionné n'est pas valide !"
+    },
+    "xpunge_timer_str_compact_invalid_addall_children": {
+        "message": "ERREUR : La liste des comptes/dossiers disponibles a un nombre de children invalide !"
+    },
+    "xpunge_timer_str_compact_save_fixed_msg": {
+        "message": "ERREUR : Des entrées invalides ont été trouvée dans la liste \"Dossiers à compacter\" du minuteur.\n\nUne correction a été tenté.\n\nVous pouvez ouvrir les préférences de Xpunge pour voir ce qui a changé."
+    },
+    "xpunge_timer_str_compact_whole": {
+        "message": "(entier)"
+    },
+    "xpunge_timer_str_junk_save_fixed_msg": {
+        "message": "ERREUR : Des entrées invalides ont été trouvée dans la liste \"Indésirable\" du minuteur.\n\nUne correction a été tenté.\n\nVous pouvez ouvrir les préférences de Xpunge pour voir ce qui a changé."
+    },
+    "xpunge_timer_str_loop_invalid_integer": {
+        "message": "Entier non valide dans le \"loop interval field\"."
+    },
+    "xpunge_timer_str_startup_invalid_integer": {
+        "message": "Entier non valide dans le \"startup interval field\"."
+    },
+    "xpunge_timer_str_trash_save_fixed_msg": {
+        "message": "ERREUR : Des entrées invalides ont été trouvée dans la liste \"Corbeilles à vider\" du minuteur.\n\nUne correction a été tenté.\n\nVous pouvez ouvrir les préférences de Xpunge pour voir ce qui a changé."
+    }
+}

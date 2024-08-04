@@ -1,0 +1,315 @@
+{
+    "extensions.{786abda0-fd14-d247-bf69-38b2fc18491b}.description": {
+        "message": "Αδειάζει τον Κάδο και τα Ανεπιθύμητα, και συμπτύσσει φακέλους σε πολλαπλούς λογαριασμούς Thunderbird."
+    },
+    "xpunge.menu.multi.call.label": {
+        "message": "Καλέστε Το MultiXpunge Τώρα"
+    },
+    "xpunge.menu.multi.name": {
+        "message": "MultiXpunge"
+    },
+    "xpunge.menu.name": {
+        "message": "Xpunge"
+    },
+    "xpunge.menu.options.label": {
+        "message": "Προτιμήσεις"
+    },
+    "xpunge.menu.single.call.label": {
+        "message": "Καλέστε Το Xpunge Τώρα"
+    },
+    "xpunge.menu.single.name": {
+        "message": "Xpunge"
+    },
+    "xpunge.menu.timer.absolute.disable.label": {
+        "message": "Απενεργοποίηση Απόλυτου Χρονοδιακόπτη"
+    },
+    "xpunge.menu.timer.name": {
+        "message": "Χρονοδιακόπτης"
+    },
+    "xpunge.menu.timer.relative.disable.label": {
+        "message": "Απενεργοποίηση Σχετικού Χρονοδιακόπτη"
+    },
+    "xpunge.options.multi.button.compact.add": {
+        "message": "Προσθήκη Επιλεγμένου"
+    },
+    "xpunge.options.multi.button.compact.addall": {
+        "message": "Προσθήκη Όλων"
+    },
+    "xpunge.options.multi.button.compact.remove": {
+        "message": "Αφαίρεση Επιλεγμένο"
+    },
+    "xpunge.options.multi.button.compact.removeall": {
+        "message": "Αφαίρεση Όλων"
+    },
+    "xpunge.options.multi.button.junk.addall": {
+        "message": "Προσθήκη Όλων Των Ανεπιθύμητων"
+    },
+    "xpunge.options.multi.button.junk.removeall": {
+        "message": "Αφαίρεση Όλων Των Ανεπιθύμητων"
+    },
+    "xpunge.options.multi.button.trash.addall": {
+        "message": "Προσθήκη Όλων Των Κάδων"
+    },
+    "xpunge.options.multi.button.trash.removeall": {
+        "message": "Αφαίρεση Όλων Των Κάδων"
+    },
+    "xpunge.options.multi.emptied.col.account": {
+        "message": "Λογαριασμός"
+    },
+    "xpunge.options.multi.emptied.col.junk": {
+        "message": "Ανεπιθύμητα"
+    },
+    "xpunge.options.multi.emptied.col.trash": {
+        "message": "Κάδος"
+    },
+    "xpunge.options.multi.emptied.col.uri": {
+        "message": "Διεύθυνση"
+    },
+    "xpunge.options.multi.label.compact.accounts": {
+        "message": "Επιλεγμένοι Λογαριασμοί/Φάκελοι Που Θα Συμπτυχθούν:"
+    },
+    "xpunge.options.multi.label.compact.picker": {
+        "message": "Επιλέξτε Φάκελο Για Σύμπτυξη:"
+    },
+    "xpunge.options.multi.label.emptied.accounts": {
+        "message": "Επιλεγμένοι Κάδοι Και Ανεπιθύμητα Που Θα Αδειαστούν:"
+    },
+    "xpunge.options.multi.menu.choose.account": {
+        "message": "Επιλογή Ολόκληρου Του Λογαριασμού"
+    },
+    "xpunge.options.multi.menu.choose.folder": {
+        "message": "Επιλογή Αυτού Του Φακέλου"
+    },
+    "xpunge.options.settings.multi.caption": {
+        "message": "MultiXpunge"
+    },
+    "xpunge.options.settings.multi.checkbox.confirm": {
+        "message": "Εμφάνιση διαλόγου επιβεβαίωσης πριν την εκτέλεση του MultiXpunge."
+    },
+    "xpunge.options.settings.single.caption": {
+        "message": "Xpunge"
+    },
+    "xpunge.options.settings.single.checkbox.confirm": {
+        "message": "Εμφάνιση διαλόγου επιβεβαίωσης πριν την εκτέλεση του Xpunge."
+    },
+    "xpunge.options.single.checkbox.compact": {
+        "message": "Σύμπτυξη Φακέλων"
+    },
+    "xpunge.options.single.checkbox.junk": {
+        "message": "Άδειασμα Ανεπιθύμητων"
+    },
+    "xpunge.options.single.checkbox.trash": {
+        "message": "Άδειασμα Κάδου"
+    },
+    "xpunge.options.tab.multi": {
+        "message": "MultiXpunge"
+    },
+    "xpunge.options.tab.settings": {
+        "message": "Ρυθμίσεις"
+    },
+    "xpunge.options.tab.single": {
+        "message": "Xpunge"
+    },
+    "xpunge.options.tab.timer": {
+        "message": "Χρονοδιακόπτης"
+    },
+    "xpunge.options.timer.auto.absolute.label.hours.suffix": {
+        "message": ":"
+    },
+    "xpunge.options.timer.auto.absolute.label.minutes.suffix": {
+        "message": "."
+    },
+    "xpunge.options.timer.auto.label.loop.suffix": {
+        "message": "λεπτά στη συνέχεια."
+    },
+    "xpunge.options.timer.auto.label.startup.suffix": {
+        "message": "λεπτά μετά την έναρξη και κάθε"
+    },
+    "xpunge.options.timer.auto.tooltip.loop": {
+        "message": "Θετικός ακέραιος ή 0. Μηδέν σημαίνει απενεργοποίηση του επαναλαμβανόμενου Xpunge."
+    },
+    "xpunge.options.timer.auto.tooltip.startup": {
+        "message": "Θετικός ακέραιος ή 0. Μηδέν σημαίνει μη ενεργοποίηση του εναρκτήριου Xpunge."
+    },
+    "xpunge.options.timer.button.compact.add": {
+        "message": "Προσθήκη Επιλεγμένου"
+    },
+    "xpunge.options.timer.button.compact.addall": {
+        "message": "Προσθήκη Όλων"
+    },
+    "xpunge.options.timer.button.compact.remove": {
+        "message": "Αφαίρεση Επιλεγμένου"
+    },
+    "xpunge.options.timer.button.compact.removeall": {
+        "message": "Αφαίρεση Όλων"
+    },
+    "xpunge.options.timer.button.junk.addall": {
+        "message": "Προσθήκη Όλων Των Ανεπιθύμητων"
+    },
+    "xpunge.options.timer.button.junk.removeall": {
+        "message": "Αφαίρεση Όλων Των Ανεπιθύμητων"
+    },
+    "xpunge.options.timer.button.trash.addall": {
+        "message": "Προσθήκη Όλων Των Κάδων"
+    },
+    "xpunge.options.timer.button.trash.removeall": {
+        "message": "Αφαίρεση Όλων Των Κάδων"
+    },
+    "xpunge.options.timer.checkbox.auto": {
+        "message": "Αυτόματο Xpunge"
+    },
+    "xpunge.options.timer.checkbox.auto.absolute": {
+        "message": "Αυτόματο Xpunge κάθε μέρα στις"
+    },
+    "xpunge.options.timer.emptied.col.account": {
+        "message": "Λογαριασμός"
+    },
+    "xpunge.options.timer.emptied.col.junk": {
+        "message": "Ανεπιθύμητα"
+    },
+    "xpunge.options.timer.emptied.col.trash": {
+        "message": "Κάδος"
+    },
+    "xpunge.options.timer.emptied.col.uri": {
+        "message": "Διεύθυνση"
+    },
+    "xpunge.options.timer.label.compact.accounts": {
+        "message": "Επιλεγμένοι Λογαριασμοί/Φάκελοι Που Θα Συμπτυχθούν:"
+    },
+    "xpunge.options.timer.label.compact.picker": {
+        "message": "Επιλέξτε Φάκελο Για Σύμπτυξη:"
+    },
+    "xpunge.options.timer.label.emptied.accounts": {
+        "message": "Επιλεγμένοι Κάδοι Και Ανεπιθύμητα Που Θα Αδειαστούν:"
+    },
+    "xpunge.options.timer.menu.choose.account": {
+        "message": "Επιλογή Ολόκληρου Του Λογαριασμού"
+    },
+    "xpunge.options.timer.menu.choose.folder": {
+        "message": "Επιλογή Αυτού Του Φακέλου"
+    },
+    "xpunge.options.title": {
+        "message": "Προτιμήσεις Xpunge"
+    },
+    "xpunge.toolbar.multi.button": {
+        "message": "MultiXpunge"
+    },
+    "xpunge.toolbar.multi.tooltip": {
+        "message": "MultiXpunge"
+    },
+    "xpunge.toolbar.single.button": {
+        "message": "Xpunge"
+    },
+    "xpunge.toolbar.single.tooltip": {
+        "message": "Xpunge"
+    },
+    "xpunge_multi_str_compact_already_added": {
+        "message": "Ο λογαριασμός/φάκελος που επιλέξατε έχει ήδη προστεθεί στη λίστα \"Συμπτύξεις\"."
+    },
+    "xpunge_multi_str_compact_belongs": {
+        "message": "στο"
+    },
+    "xpunge_multi_str_compact_invalid_account": {
+        "message": "ΣΦΑΛΜΑ: Ο λογαριασμός/φάκελος που επιλέξατε δεν είναι έγκυρος!"
+    },
+    "xpunge_multi_str_compact_invalid_addall_children": {
+        "message": "ΣΦΑΛΜΑ: Η λίστα των διαθέσιμων λογαριασμών/φακέλων έχει μη-έγκυρο αριθμό παιδιών!"
+    },
+    "xpunge_multi_str_compact_save_fixed_msg": {
+        "message": "ΣΦΑΛΜΑ: Βρέθηκαν λανθασμένες καταχωρήσεις κατά την αποθήκευση της λίστας \"Συμπτύξεις\" του MultiXpunge.\n\nΈγινε προσπάθεια επιδιόρθωσής τους.\n\nΆνοίξτε πάλι τις προτιμήσεις του Xpunge για να δείτε τι έχει αλλάξει."
+    },
+    "xpunge_multi_str_compact_whole": {
+        "message": "(ολόκληρος)"
+    },
+    "xpunge_multi_str_confirm_dialog_title": {
+        "message": "Επιβεβαίωση MultiXpunge"
+    },
+    "xpunge_multi_str_confirm_msg_body": {
+        "message": "Επιλέξατε να καλέσετε το MultiXpunge με τις εξής ρυθμίσεις:\n\n\n\nΚΑΔΟΙ ΠΟΥ ΘΑ ΑΔΕΙΑΣΤΟΥΝ:  $P1$\n\nΑΝΕΠΙΘYΜΗΤΑ ΠΟΥ ΘΑ ΑΔΕΙΑΣΤΟΥΝ: $P2$\n\nΛΟΓΑΡΙΑΣΜΟΙ/ΦΑΚΕΛΟΙ ΠΟΥ ΘΑ ΣΥΜΠΤΥΧΘΟΥΝ: $P3$\n\n\n\nΕίσαστε σίγουροι ότι θέλετε να συνεχίσετε;",
+        "placeholders": {
+            "P1": {
+                "content": "$1"
+            },
+            "P2": {
+                "content": "$2"
+            },
+            "P3": {
+                "content": "$3"
+            }
+        }
+    },
+    "xpunge_multi_str_junk_save_fixed_msg": {
+        "message": "ΣΦΑΛΜΑ: Βρέθηκαν λανθασμένες καταχωρήσεις κατά την αποθήκευση της λίστας \"Ανεπιθύμητα\" του MultiXpunge.\n\nΈγινε προσπάθεια επιδιόρθωσής τους.\n\nΆνοίξτε πάλι τις προτιμήσεις του Xpunge για να δείτε τι έχει αλλάξει."
+    },
+    "xpunge_multi_str_trash_save_fixed_msg": {
+        "message": "ΣΦΑΛΜΑ: Βρέθηκαν λανθασμένες καταχωρήσεις κατά την αποθήκευση της λίστας \"Κάδοι\" του MultiXpunge.\n\nΈγινε προσπάθεια επιδιόρθωσής τους.\n\nΆνοίξτε πάλι τις προτιμήσεις του Xpunge για να δείτε τι έχει αλλάξει."
+    },
+    "xpunge_pref_migration_error_1": {
+        "message": "Παρουσιάστηκε πρόβλημα κατά τη μεταφορά των ρυθμίσεων του Xpunge!"
+    },
+    "xpunge_pref_migration_error_2": {
+        "message": "ΣΦΑΛΜΑ"
+    },
+    "xpunge_pref_migration_error_3": {
+        "message": "Ανοίξτε το παράθυρο των Ρυθμίσεων του Xpunge και ελέγξτε τις ρυθμίσεις. Αν κάτι δε φαίνεται σωστό, μπορείτε να τις ξαναρυθμίσετε ή να προσπαθήσετε να ανακτήσετε τις προηγούμενες ρυθμίσεις."
+    },
+    "xpunge_pref_migration_error_4": {
+        "message": "Για περισσότερες πληροφορίες για το πως να ανακτήσετε τις προηγούμενες ρυθμίσεις, επισκεφθείτε την παρακάτω ιστοσελίδα:"
+    },
+    "xpunge_single_str_confirm_dialog_title": {
+        "message": "Επιβεβαίωση Xpunge"
+    },
+    "xpunge_single_str_confirm_msg_body": {
+        "message": "Επιλέξατε να καλέσετε το Xpunge στο λογαριασμό \"$P1$\". Οι ρυθμίσεις σας είναι οι εξής:\n\n\n\nΑΔΕΙΑΣΜΑ ΚΑΔΟΥ:  $P2$\n\nΑΔΕΙΑΣΜΑ ΑΝΕΠΙΘΥΜΗΤΩΝ: $P3$\n\nΣΥΜΠΤΥΞΗ ΦΑΚΕΛΩΝ: $P4$\n\n\n\nΕίσαστε σίγουροι ότι θέλετε να συνεχίσετε;",
+        "placeholders": {
+            "P1": {
+                "content": "$1"
+            },
+            "P2": {
+                "content": "$2"
+            },
+            "P3": {
+                "content": "$3"
+            },
+            "P4": {
+                "content": "$4"
+            }
+        }
+    },
+    "xpunge_str_no": {
+        "message": "όχι"
+    },
+    "xpunge_str_yes": {
+        "message": "ναι"
+    },
+    "xpunge_timer_str_compact_already_added": {
+        "message": "Ο λογαριασμός/φάκελος που επιλέξατε έχει ήδη προστεθεί στη λίστα \"Συμπτύξεις\"."
+    },
+    "xpunge_timer_str_compact_belongs": {
+        "message": "στο"
+    },
+    "xpunge_timer_str_compact_invalid_account": {
+        "message": "ΣΦΑΛΜΑ: Ο λογαριασμός/φάκελος που επιλέξατε δεν είναι έγκυρος!"
+    },
+    "xpunge_timer_str_compact_invalid_addall_children": {
+        "message": "ΣΦΑΛΜΑ: Η λίστα των διαθέσιμων λογαριασμών/φακέλων έχει μη-έγκυρο αριθμό παιδιών!"
+    },
+    "xpunge_timer_str_compact_save_fixed_msg": {
+        "message": "ΣΦΑΛΜΑ: Βρέθηκαν λανθασμένες καταχωρήσεις κατά την αποθήκευση της λίστας \"Συμπτύξεις\" του Χρονοδιακόπτη.\n\nΈγινε προσπάθεια επιδιόρθωσής τους.\n\nΆνοίξτε πάλι τις προτιμήσεις του Xpunge για να δείτε τι έχει αλλάξει."
+    },
+    "xpunge_timer_str_compact_whole": {
+        "message": "(ολόκληρος)"
+    },
+    "xpunge_timer_str_junk_save_fixed_msg": {
+        "message": "ΣΦΑΛΜΑ: Βρέθηκαν λανθασμένες καταχωρήσεις κατά την αποθήκευση της λίστας \"Ανεπιθύμητα\" του Χρονοδιακόπτη.\n\nΈγινε προσπάθεια επιδιόρθωσής τους.\n\nΆνοίξτε πάλι τις προτιμήσεις του Xpunge για να δείτε τι έχει αλλάξει."
+    },
+    "xpunge_timer_str_loop_invalid_integer": {
+        "message": "Μη αποδεκτός ακέραιος στο πεδίο του επαναλαμβανόμενου διαστήματος"
+    },
+    "xpunge_timer_str_startup_invalid_integer": {
+        "message": "Μη αποδεκτός ακέραιος στο πεδίο του εναρκτήριου διαστήματος"
+    },
+    "xpunge_timer_str_trash_save_fixed_msg": {
+        "message": "ΣΦΑΛΜΑ: Βρέθηκαν λανθασμένες καταχωρήσεις κατά την αποθήκευση της λίστας \"Κάδοι\" του Χρονοδιακόπτη.\n\nΈγινε προσπάθεια επιδιόρθωσής τους.\n\nΆνοίξτε πάλι τις προτιμήσεις του Xpunge για να δείτε τι έχει αλλάξει."
+    }
+}

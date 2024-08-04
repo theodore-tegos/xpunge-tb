@@ -1,0 +1,315 @@
+{
+    "extensions.{786abda0-fd14-d247-bf69-38b2fc18491b}.description": {
+        "message": "Очищает папки «Удалённые» и «Спам», а также сжимает выбранные папки в нескольких учётных записях Thunderbird."
+    },
+    "xpunge.menu.multi.call.label": {
+        "message": "Вызвать МультиXpunge сейчас"
+    },
+    "xpunge.menu.multi.name": {
+        "message": "МультиXpunge"
+    },
+    "xpunge.menu.name": {
+        "message": "Xpunge"
+    },
+    "xpunge.menu.options.label": {
+        "message": "Настройки"
+    },
+    "xpunge.menu.single.call.label": {
+        "message": "Вызвать Xpunge сейчас"
+    },
+    "xpunge.menu.single.name": {
+        "message": "Xpunge"
+    },
+    "xpunge.menu.timer.absolute.disable.label": {
+        "message": "Отключить абсолютный таймер"
+    },
+    "xpunge.menu.timer.name": {
+        "message": "Таймер"
+    },
+    "xpunge.menu.timer.relative.disable.label": {
+        "message": "Отключить относительный таймер"
+    },
+    "xpunge.options.multi.button.compact.add": {
+        "message": "Добавить выбранные"
+    },
+    "xpunge.options.multi.button.compact.addall": {
+        "message": "Добавить все"
+    },
+    "xpunge.options.multi.button.compact.remove": {
+        "message": "Исключить выбранные"
+    },
+    "xpunge.options.multi.button.compact.removeall": {
+        "message": "Исключить все"
+    },
+    "xpunge.options.multi.button.junk.addall": {
+        "message": "Добавить все «Спам»"
+    },
+    "xpunge.options.multi.button.junk.removeall": {
+        "message": "Исключить все «Спам»"
+    },
+    "xpunge.options.multi.button.trash.addall": {
+        "message": "Добавить все «Удалённые»"
+    },
+    "xpunge.options.multi.button.trash.removeall": {
+        "message": "Исключить все «Удалённые»"
+    },
+    "xpunge.options.multi.emptied.col.account": {
+        "message": "Учётная запись"
+    },
+    "xpunge.options.multi.emptied.col.junk": {
+        "message": "Спам"
+    },
+    "xpunge.options.multi.emptied.col.trash": {
+        "message": "Удалённые"
+    },
+    "xpunge.options.multi.emptied.col.uri": {
+        "message": "Адрес"
+    },
+    "xpunge.options.multi.label.compact.accounts": {
+        "message": "Выбранные для сжатия учётные записи/папки:"
+    },
+    "xpunge.options.multi.label.compact.picker": {
+        "message": "Выберите папку для сжатия:"
+    },
+    "xpunge.options.multi.label.emptied.accounts": {
+        "message": "Выбранные для очистки папки «Удалённые» и «Спам»:"
+    },
+    "xpunge.options.multi.menu.choose.account": {
+        "message": "Выбрать учётную запись целиком"
+    },
+    "xpunge.options.multi.menu.choose.folder": {
+        "message": "Выбрать эту папку"
+    },
+    "xpunge.options.settings.multi.caption": {
+        "message": "МультиXpunge"
+    },
+    "xpunge.options.settings.multi.checkbox.confirm": {
+        "message": "Перед выполнением МультиXpunge показать диалог подтверждения."
+    },
+    "xpunge.options.settings.single.caption": {
+        "message": "Xpunge"
+    },
+    "xpunge.options.settings.single.checkbox.confirm": {
+        "message": "Перед выполнением Xpunge показать диалог подтверждения."
+    },
+    "xpunge.options.single.checkbox.compact": {
+        "message": "Сжать папки"
+    },
+    "xpunge.options.single.checkbox.junk": {
+        "message": "Очистить папку(и) «Спам»"
+    },
+    "xpunge.options.single.checkbox.trash": {
+        "message": "Очистить папку «Удалённые»"
+    },
+    "xpunge.options.tab.multi": {
+        "message": "МультиXpunge"
+    },
+    "xpunge.options.tab.settings": {
+        "message": "Параметры"
+    },
+    "xpunge.options.tab.single": {
+        "message": "Xpunge"
+    },
+    "xpunge.options.tab.timer": {
+        "message": "Таймер"
+    },
+    "xpunge.options.timer.auto.absolute.label.hours.suffix": {
+        "message": ":"
+    },
+    "xpunge.options.timer.auto.absolute.label.minutes.suffix": {
+        "message": "."
+    },
+    "xpunge.options.timer.auto.label.loop.suffix": {
+        "message": "минут после этого."
+    },
+    "xpunge.options.timer.auto.label.startup.suffix": {
+        "message": "минут после запуска и каждые"
+    },
+    "xpunge.options.timer.auto.tooltip.loop": {
+        "message": "Натуральное число. Ноль — не повторять Xpunge циклически."
+    },
+    "xpunge.options.timer.auto.tooltip.startup": {
+        "message": "Натуральное число. Ноль — не выполнять Xpunge при запуске."
+    },
+    "xpunge.options.timer.button.compact.add": {
+        "message": "Добавить выбранные"
+    },
+    "xpunge.options.timer.button.compact.addall": {
+        "message": "Добавить все"
+    },
+    "xpunge.options.timer.button.compact.remove": {
+        "message": "Исключить выбранные"
+    },
+    "xpunge.options.timer.button.compact.removeall": {
+        "message": "Исключить все"
+    },
+    "xpunge.options.timer.button.junk.addall": {
+        "message": "Добавить все «Спам»"
+    },
+    "xpunge.options.timer.button.junk.removeall": {
+        "message": "Исключить все «Спам»"
+    },
+    "xpunge.options.timer.button.trash.addall": {
+        "message": "Добавить все «Удалённые»"
+    },
+    "xpunge.options.timer.button.trash.removeall": {
+        "message": "Исключить все «Удалённые»"
+    },
+    "xpunge.options.timer.checkbox.auto": {
+        "message": "Запускать Xpunge автоматически через"
+    },
+    "xpunge.options.timer.checkbox.auto.absolute": {
+        "message": "Каждый день автоматически запускать Xpunge в"
+    },
+    "xpunge.options.timer.emptied.col.account": {
+        "message": "Учётная запись"
+    },
+    "xpunge.options.timer.emptied.col.junk": {
+        "message": "Спам"
+    },
+    "xpunge.options.timer.emptied.col.trash": {
+        "message": "Удалённые"
+    },
+    "xpunge.options.timer.emptied.col.uri": {
+        "message": "Адрес"
+    },
+    "xpunge.options.timer.label.compact.accounts": {
+        "message": "Выбранные для сжатия учётные записи/папки:"
+    },
+    "xpunge.options.timer.label.compact.picker": {
+        "message": "Выберите папку для сжатия:"
+    },
+    "xpunge.options.timer.label.emptied.accounts": {
+        "message": "Выбранные для очистки папки «Удалённые» и «Спам»:"
+    },
+    "xpunge.options.timer.menu.choose.account": {
+        "message": "Выбрать учётную запись целиком"
+    },
+    "xpunge.options.timer.menu.choose.folder": {
+        "message": "Выбрать эту папку"
+    },
+    "xpunge.options.title": {
+        "message": "Xpunge — Настройки"
+    },
+    "xpunge.toolbar.multi.button": {
+        "message": "МультиXpunge"
+    },
+    "xpunge.toolbar.multi.tooltip": {
+        "message": "МультиXpunge"
+    },
+    "xpunge.toolbar.single.button": {
+        "message": "Xpunge"
+    },
+    "xpunge.toolbar.single.tooltip": {
+        "message": "Xpunge"
+    },
+    "xpunge_multi_str_compact_already_added": {
+        "message": "Выбранная учётная запись/папка уже была добавлена в список «Для сжатия»."
+    },
+    "xpunge_multi_str_compact_belongs": {
+        "message": "из"
+    },
+    "xpunge_multi_str_compact_invalid_account": {
+        "message": "ОШИБКА: Выбранная учётная запись/папка повреждена!"
+    },
+    "xpunge_multi_str_compact_invalid_addall_children": {
+        "message": "ОШИБКА: Список доступных учётных записей/папок имеет неверное число дочерних записей!"
+    },
+    "xpunge_multi_str_compact_save_fixed_msg": {
+        "message": "ОШИБКА: Во время сохранения списка «Для сжатия» МультиXpunge найдены недействительные записи.\n\nБыла предпринята попытка исправления.\n\nОткройте настройки Xpunge снова, чтобы увидеть изменения."
+    },
+    "xpunge_multi_str_compact_whole": {
+        "message": "(целиком)"
+    },
+    "xpunge_multi_str_confirm_dialog_title": {
+        "message": "Подтверждение МультиXpunge"
+    },
+    "xpunge_multi_str_confirm_msg_body": {
+        "message": "Вы хотите выполнить МультиXpunge со следующими настройками:\n\n\n\nПАПКИ «УДАЛЁННЫЕ», КОТОРЫЕ ДОЛЖНЫ БЫТЬ ОЧИЩЕНЫ: $P1$\n\nПАПКИ «СПАМ», КОТОРЫЕ ДОЛЖНЫ БЫТЬ ОЧИЩЕНЫ: $P2$\n\nПАПКИ/УЧЁТНЫЕ ЗАПИСИ КОТОРЫЕ БУДУТ СЖАТЫ: $P3$\n\n\n\nПродолжить?",
+        "placeholders": {
+            "P1": {
+                "content": "$1"
+            },
+            "P2": {
+                "content": "$2"
+            },
+            "P3": {
+                "content": "$3"
+            }
+        }
+    },
+    "xpunge_multi_str_junk_save_fixed_msg": {
+        "message": "ОШИБКА: Во время сохранения списка папок «Спам» МультиXpunge найдены недействительные записи.\n\nБыла предпринята попытка исправления.\n\nОткройте настройки Xpunge снова, чтобы увидеть изменения."
+    },
+    "xpunge_multi_str_trash_save_fixed_msg": {
+        "message": "ОШИБКА: Во время сохранения списка папок «Удалённые» МультиXpunge найдены недействительные записи.\n\nБыла предпринята попытка исправления.\n\nОткройте настройки Xpunge снова, чтобы увидеть изменения."
+    },
+    "xpunge_pref_migration_error_1": {
+        "message": "There was a problem during the migration of the Xpunge preferences!"
+    },
+    "xpunge_pref_migration_error_2": {
+        "message": "ERROR"
+    },
+    "xpunge_pref_migration_error_3": {
+        "message": "Open the Preferences window in Xpunge and check the preferences. If something does not look right, you can either set up the preferences again or try to recover the previous preferences."
+    },
+    "xpunge_pref_migration_error_4": {
+        "message": "For more information about how to recover the previous preferences, visit the following web page:"
+    },
+    "xpunge_single_str_confirm_dialog_title": {
+        "message": "Подтверждение Xpunge"
+    },
+    "xpunge_single_str_confirm_msg_body": {
+        "message": "Вы хотите выполнить Xpunge для учётной записи «$P1$» со следующими настройками:\n\n\n\nОЧИСТИТЬ ПАПКУ «УДАЛЁННЫЕ»: $P2$\n\nОЧИСТИТЬ ПАПКУ «СПАМ»: $P3$\n\nСЖАТЬ ПАПКИ: $P4$\n\n\n\nХотите продолжить?",
+        "placeholders": {
+            "P1": {
+                "content": "$1"
+            },
+            "P2": {
+                "content": "$2"
+            },
+            "P3": {
+                "content": "$3"
+            },
+            "P4": {
+                "content": "$4"
+            }
+        }
+    },
+    "xpunge_str_no": {
+        "message": "Нет"
+    },
+    "xpunge_str_yes": {
+        "message": "Да"
+    },
+    "xpunge_timer_str_compact_already_added": {
+        "message": "Выбранная учётная запись/папка уже была добавлена в список «Для сжатия»."
+    },
+    "xpunge_timer_str_compact_belongs": {
+        "message": "из"
+    },
+    "xpunge_timer_str_compact_invalid_account": {
+        "message": "ОШИБКА: Выбранная учётная запись/папка повреждена!"
+    },
+    "xpunge_timer_str_compact_invalid_addall_children": {
+        "message": "ОШИБКА: Список доступных учётных записей/папок имеет неверное число дочерних записей!"
+    },
+    "xpunge_timer_str_compact_save_fixed_msg": {
+        "message": "ОШИБКА: Во время сохранения списка «Для сжатия» таймера найдены недействительные записи.\n\nБыла предпринята попытка исправления.\n\nОткройте настройки Xpunge снова, чтобы увидеть изменения."
+    },
+    "xpunge_timer_str_compact_whole": {
+        "message": "(целиком)"
+    },
+    "xpunge_timer_str_junk_save_fixed_msg": {
+        "message": "ОШИБКА: Во время сохранения списка папок «Спам» таймера найдены недействительные записи.\n\nБыла предпринята попытка исправления.\n\nОткройте настройки Xpunge снова, чтобы увидеть изменения."
+    },
+    "xpunge_timer_str_loop_invalid_integer": {
+        "message": "Недействительное целое число в поле «После этого»"
+    },
+    "xpunge_timer_str_startup_invalid_integer": {
+        "message": "Недействительное целое число в поле «После запуска»"
+    },
+    "xpunge_timer_str_trash_save_fixed_msg": {
+        "message": "ОШИБКА: Во время сохранения списка папок «Удалённые» таймера найдены недействительные записи.\n\nБыла предпринята попытка исправления.\n\nОткройте настройки Xpunge снова, чтобы увидеть изменения."
+    }
+}
