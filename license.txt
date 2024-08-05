@@ -20,10 +20,11 @@ The Original Code is Xpunge.
 
 The Initial Developer of the Original Code is
 Theodore Tegos <xpungetb@gmail.com>.
-Portions created by the Initial Developer are Copyright (C) 2005-2018
+Portions created by the Initial Developer are Copyright (C) 2005
 the Initial Developer. All Rights Reserved.
 
 Contributor(s):
+  John Bieling (Rewrite for Thunderbird 128)
   Dagobert_78 (French Translation)
   Joergen (Danish Translation)
   kiki (Japanese Translation)
