@@ -163,11 +163,19 @@ var Xpunge = class extends ExtensionCommon.ExtensionAPI {
             // Compact the specified folder
             // Can't compact folders that have just been compacted.
             if (nativeFolder.server.type != "imap" && !nativeFolder.expungedBytes) {
+              console.info("XPUNGE: Nothing to do, skipping compacting of folder (", nativeFolder.prettyName, ") on account:", nativeFolder.server.prettyName);
               return;
             }
-            let urlListener = new UrlListener();
-            nativeFolder.compact(urlListener, null);
-            await urlListener.isDone();
+            
+            try {
+              console.info("XPUNGE: Compacting folder (", nativeFolder.prettyName, ") on account:", nativeFolder.server.prettyName);
+              let urlListener = new UrlListener();
+              nativeFolder.compact(urlListener, null);
+              await urlListener.isDone();
+              console.info("XPUNGE: Done");
+            } catch (ex) {
+              console.info("XPUNGE: Failed compacting folder (", nativeFolder.prettyName, ") on account:", nativeFolder.server.prettyName, ex);
+            }
           }
         },
       },
