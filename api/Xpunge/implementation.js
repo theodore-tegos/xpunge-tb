@@ -87,7 +87,7 @@ var Xpunge = class extends ExtensionCommon.ExtensionAPI {
           const junkFolders = rootFolder.getFoldersWithFlags(Ci.nsMsgFolderFlags.Junk);
           for (let junkFolder of junkFolders) {
             try {
-              console.info("XPUNGE: Emptying junk folder:", junkFolder.prettyName);
+              console.info("XPUNGE: Emptying junk folder (", junkFolder.prettyName, ") for account:", rootFolder.server.prettyName);
               await _emptyJunk(junkFolder);
               console.info("XPUNGE: Done");
 
