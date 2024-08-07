@@ -147,7 +147,7 @@ export async function xpungeMultiple() {
             [
                 await prettyPrintFolderList(trash_folders),
                 await prettyPrintFolderList(junk_folders),
-                await prettyPrintFolderList(compact_folders),
+                await prettyPrintFolderList(compact_folders, true),
             ]
         );
         if (!await browser.Xpunge.confirm(dialogTitle, dialogMsg)) {
@@ -199,7 +199,7 @@ function getYesOrNo(value) {
     return browser.i18n.getMessage(value ? "xpunge_str_yes" : "xpunge_str_no");
 }
 
-async function prettyPrintFolderList(folders) {
+async function prettyPrintFolderList(folders, isForCompacting = false) {
     if (folders.length == 0) {
         return ""
     }
@@ -207,7 +207,11 @@ async function prettyPrintFolderList(folders) {
     for (let folder of folders) {
         let account = await browser.accounts.get(folder.accountId);
         if (folder.isRoot) {
-            list.push(` - ${account.name} ${browser.i18n.getMessage("xpunge_multi_str_compact_whole")}`)
+            if (isForCompacting) {
+                list.push(` - ${account.name} ${browser.i18n.getMessage("xpunge_multi_str_compact_whole")}`)
+            } else {
+                list.push(` - ${account.name}`)
+            }
         } else {
             list.push(` - ${folder.name} @ ${account.name}`)
         }
