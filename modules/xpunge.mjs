@@ -39,15 +39,19 @@ export async function handleXpungeTimer() {
             return;
         }
     }
+
     if (preferences.timer_interval_enabled) {
         await handleIntervalTimer(preferences);
-    };
+    }
 }
 
 async function handleAbsoluteTimer(preferences) {
     const stamp = new Date();
-    const [timer_absolute_hours,timer_absolute_minutes] = preferences.timer_absolute;
-    
+
+    const timeComponents = preferences.timer_absolute.split(":");
+    const timer_absolute_hours = timeComponents[0];
+    const timer_absolute_minutes = timeComponents[1];
+
     let hours = 0;
     if (timer_absolute_hours.indexOf("0") === 0) {
         let stripped_hours_pref_value = timer_absolute_hours.substring(1);
@@ -69,6 +73,7 @@ async function handleAbsoluteTimer(preferences) {
         doTimer();
         return true;
     }
+
     return false;
 }
 
