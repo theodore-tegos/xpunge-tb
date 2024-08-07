@@ -31,11 +31,18 @@ export async function migratePrefs() {
         }
         
     }
-    // Merge timer_absolute_hours and timer_absolute_minutes.
-    options.preferences_timer_absolute = `${options.preferences_timer_absolute_hours}:${options.preferences_timer_absolute_minutes}`
-    delete options.preferences_timer_absolute_hours;
-    delete options.preferences_timer_absolute_minutes;
-    await browser.storage.local.set(options);
+    // Merge timer_absolute_hours and timer_absolute_minutes (if needed).
+    if (
+        Object.hasOwn(options, "preferences_timer_absolute_hours") &&
+        Object.hasOwn(options, "preferences_timer_absolute_minutes")
+    ) {
+        options.preferences_timer_absolute = `${options.preferences_timer_absolute_hours}:${options.preferences_timer_absolute_minutes}`
+        delete options.preferences_timer_absolute_hours;
+        delete options.preferences_timer_absolute_minutes;
+    }
+    if (Object.keys(options).length) {
+        await browser.storage.local.set(options);
+    }
 }
 
 async function getLegacyPreference(name) {
