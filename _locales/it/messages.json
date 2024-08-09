@@ -1,315 +1,315 @@
 {
     "extensions.{786abda0-fd14-d247-bf69-38b2fc18491b}.description": {
-        "message": "Svuota le cartelle Cestino e Spam e compatta le cartelle in più account Thunderbird."
+      "message": "Svuota le cartelle Cestino e Spam e compatta le cartelle in più account Thunderbird."
     },
     "xpunge.menu.multi.call.label": {
-        "message": "Esegui MultiXpunge Ora"
+      "message": "Esegui MultiXpunge Ora"
     },
     "xpunge.menu.multi.name": {
-        "message": "MultiXpunge"
+      "message": "MultiXpunge"
     },
     "xpunge.menu.name": {
-        "message": "Xpunge"
+      "message": "Xpunge"
     },
     "xpunge.menu.options.label": {
-        "message": "Preferenze"
+      "message": "Preferenze"
     },
     "xpunge.menu.single.call.label": {
-        "message": "Esegui Xpunge Ora"
+      "message": "Esegui Xpunge Ora"
     },
     "xpunge.menu.single.name": {
-        "message": "Xpunge"
+      "message": "Xpunge"
     },
     "xpunge.menu.timer.absolute.disable.label": {
-        "message": "Disattiva Timer Assoluto"
+      "message": "Disattiva il Timer Assoluto"
     },
     "xpunge.menu.timer.name": {
-        "message": "Timer"
+      "message": "Timer"
     },
     "xpunge.menu.timer.relative.disable.label": {
-        "message": "Disattiva Timer Relativo"
+      "message": "Disattiva il Timer Relativo"
     },
     "xpunge.options.multi.button.compact.add": {
-        "message": "Aggiungi Selezionati"
+      "message": "Aggiungi Selezionati"
     },
     "xpunge.options.multi.button.compact.addall": {
-        "message": "Aggiungi Tutti"
+      "message": "Aggiungi Tutti"
     },
     "xpunge.options.multi.button.compact.remove": {
-        "message": "Rimuovi Selezionati"
+      "message": "Rimuovi Selezionati"
     },
     "xpunge.options.multi.button.compact.removeall": {
-        "message": "Rimuovi Tutti"
+      "message": "Rimuovi Tutti"
     },
     "xpunge.options.multi.button.junk.addall": {
-        "message": "Aggiungi Tutti i Spam"
+      "message": "Aggiungi Tutte le cartelle Spam"
     },
     "xpunge.options.multi.button.junk.removeall": {
-        "message": "Rimuovi Tutti i Spam"
+      "message": "Rimuovi Tutte le cartelle Spam"
     },
     "xpunge.options.multi.button.trash.addall": {
-        "message": "Aggiungi Tutti i Cestini"
+      "message": "Aggiungi Tutti i Cestini"
     },
     "xpunge.options.multi.button.trash.removeall": {
-        "message": "Rimuovi Tutti i Cestini"
+      "message": "Rimuovi Tutti i Cestini"
     },
     "xpunge.options.multi.emptied.col.account": {
-        "message": "Account"
+      "message": "Account"
     },
     "xpunge.options.multi.emptied.col.junk": {
-        "message": "Spam"
+      "message": "Spam"
     },
     "xpunge.options.multi.emptied.col.trash": {
-        "message": "Cestino"
+      "message": "Cestino"
     },
     "xpunge.options.multi.emptied.col.uri": {
-        "message": "Uri"
+      "message": "Uri"
     },
     "xpunge.options.multi.label.compact.accounts": {
-        "message": "Account/Cartelle Selezionate Da Compattare:"
+      "message": "Account/Cartelle Selezionate Da Compattare:"
     },
     "xpunge.options.multi.label.compact.picker": {
-        "message": "Scegli Cartella Da Compattare:"
+      "message": "Scegli Una Cartella Da Compattare:"
     },
     "xpunge.options.multi.label.emptied.accounts": {
-        "message": "Cestini e Cartelle Spam Selezionati Da Svuotare:"
+      "message": "Cestini e Cartelle Spam Selezionati Da Svuotare:"
     },
     "xpunge.options.multi.menu.choose.account": {
-        "message": "Scegli Intero Account"
+      "message": "Scegli L'intero Account"
     },
     "xpunge.options.multi.menu.choose.folder": {
-        "message": "Scegli Questa Cartella"
+      "message": "Scegli Questa Cartella"
     },
     "xpunge.options.settings.multi.caption": {
-        "message": "MultiXpunge"
+      "message": "MultiXpunge"
     },
     "xpunge.options.settings.multi.checkbox.confirm": {
-        "message": "Mostra finestra di conferma prima di eseguire MultiXpunge."
+      "message": "Mostra la finestra di conferma prima di eseguire MultiXpunge."
     },
     "xpunge.options.settings.single.caption": {
-        "message": "Xpunge"
+      "message": "Xpunge"
     },
     "xpunge.options.settings.single.checkbox.confirm": {
-        "message": "Mostra finestra di conferma prima di eseguire Xpunge."
+      "message": "Mostra la finestra di conferma prima di eseguire Xpunge."
     },
     "xpunge.options.single.checkbox.compact": {
-        "message": "Compatta Cartelle"
+      "message": "Compatta Cartelle"
     },
     "xpunge.options.single.checkbox.junk": {
-        "message": "Svuota Cartella/e Spam"
+      "message": "Svuota Cartella/e Spam"
     },
     "xpunge.options.single.checkbox.trash": {
-        "message": "Svuota Cartella Cestino"
+      "message": "Svuota Cartella Cestino"
     },
     "xpunge.options.tab.multi": {
-        "message": "MultiXpunge"
+      "message": "MultiXpunge"
     },
     "xpunge.options.tab.settings": {
-        "message": "Impostazioni"
+      "message": "Impostazioni"
     },
     "xpunge.options.tab.single": {
-        "message": "Xpunge"
+      "message": "Xpunge"
     },
     "xpunge.options.tab.timer": {
-        "message": "Timer"
+      "message": "Timer"
     },
     "xpunge.options.timer.auto.absolute.label.hours.suffix": {
-        "message": ":"
+      "message": ":"
     },
     "xpunge.options.timer.auto.absolute.label.minutes.suffix": {
-        "message": "."
+      "message": "."
     },
     "xpunge.options.timer.auto.label.loop.suffix": {
-        "message": "minuti dopo."
+      "message": "minuti dopo."
     },
     "xpunge.options.timer.auto.label.startup.suffix": {
-        "message": "minuti dopo l'avvio e ogni"
+      "message": "minuti dopo l'avvio e ogni"
     },
     "xpunge.options.timer.auto.tooltip.loop": {
-        "message": "Un numero intero positivo o zero. Zero significa nessun loop di Xpunge."
+      "message": "Un numero intero positivo o zero. Zero significa nessun ciclo di Xpunge."
     },
     "xpunge.options.timer.auto.tooltip.startup": {
-        "message": "Un numero intero positivo o zero. Zero significa nessun Xpunge all'avvio."
+      "message": "Un numero intero positivo o zero. Zero significa nessun Xpunge all'avvio."
     },
     "xpunge.options.timer.button.compact.add": {
-        "message": "Aggiungi Selezionati"
+      "message": "Aggiungi Selezionati"
     },
     "xpunge.options.timer.button.compact.addall": {
-        "message": "Aggiungi Tutti"
+      "message": "Aggiungi Tutti"
     },
     "xpunge.options.timer.button.compact.remove": {
-        "message": "Rimuovi Selezionati"
+      "message": "Rimuovi Selezionati"
     },
     "xpunge.options.timer.button.compact.removeall": {
-        "message": "Rimuovi Tutti"
+      "message": "Rimuovi Tutti"
     },
     "xpunge.options.timer.button.junk.addall": {
-        "message": "Aggiungi Tutti i Spam"
+      "message": "Aggiungi Tutte Le Cartelle Spam"
     },
     "xpunge.options.timer.button.junk.removeall": {
-        "message": "Rimuovi Tutti i Spam"
+      "message": "Rimuovi Tutte Le Cartelle Spam"
     },
     "xpunge.options.timer.button.trash.addall": {
-        "message": "Aggiungi Tutti i Cestini"
+      "message": "Aggiungi Tutti i Cestini"
     },
     "xpunge.options.timer.button.trash.removeall": {
-        "message": "Rimuovi Tutti i Cestini"
+      "message": "Rimuovi Tutti i Cestini"
     },
     "xpunge.options.timer.checkbox.auto": {
-        "message": "Esegui Xpunge automaticamente"
+      "message": "Esegui Xpunge automaticamente"
     },
     "xpunge.options.timer.checkbox.auto.absolute": {
-        "message": "Esegui Xpunge automaticamente ogni giorno a"
+      "message": "Esegui Xpunge automaticamente ogni giorno alle"
     },
     "xpunge.options.timer.emptied.col.account": {
-        "message": "Account"
+      "message": "Account"
     },
     "xpunge.options.timer.emptied.col.junk": {
-        "message": "Spam"
+      "message": "Spam"
     },
     "xpunge.options.timer.emptied.col.trash": {
-        "message": "Cestino"
+      "message": "Cestino"
     },
     "xpunge.options.timer.emptied.col.uri": {
-        "message": "Uri"
+      "message": "Uri"
     },
     "xpunge.options.timer.label.compact.accounts": {
-        "message": "Account/Cartelle Selezionate Da Compattare:"
+      "message": "Account/Cartelle Selezionate Da Compattare:"
     },
     "xpunge.options.timer.label.compact.picker": {
-        "message": "Scegli Cartella Da Compattare:"
+      "message": "Scegli Cartella Da Compattare:"
     },
     "xpunge.options.timer.label.emptied.accounts": {
-        "message": "Cestini e Cartelle Spam Selezionati Da Svuotare:"
+      "message": "Cestini e Cartelle Spam Selezionati Da Svuotare:"
     },
     "xpunge.options.timer.menu.choose.account": {
-        "message": "Scegli Intero Account"
+      "message": "Scegli L'intero Account"
     },
     "xpunge.options.timer.menu.choose.folder": {
-        "message": "Scegli Questa Cartella"
+      "message": "Scegli Questa Cartella"
     },
     "xpunge.options.title": {
-        "message": "Preferenze Xpunge"
+      "message": "Preferenze Xpunge"
     },
     "xpunge.toolbar.multi.button": {
-        "message": "MultiXpunge"
+      "message": "MultiXpunge"
     },
     "xpunge.toolbar.multi.tooltip": {
-        "message": "MultiXpunge"
+      "message": "MultiXpunge"
     },
     "xpunge.toolbar.single.button": {
-        "message": "Xpunge"
+      "message": "Xpunge"
     },
     "xpunge.toolbar.single.tooltip": {
-        "message": "Xpunge"
+      "message": "Xpunge"
     },
     "xpunge_multi_str_compact_already_added": {
-        "message": "L'account/cartella selezionato è già stato aggiunto all'elenco \"Compattare\"."
+      "message": "L'account/cartella selezionato è già stato aggiunto all'elenco \"Compattare\"."
     },
     "xpunge_multi_str_compact_belongs": {
-        "message": "su"
+      "message": "su"
     },
     "xpunge_multi_str_compact_invalid_account": {
-        "message": "ERRORE: L'account/cartella selezionato non è valido!"
+      "message": "ERRORE: L'account/cartella selezionato non è valido!"
     },
     "xpunge_multi_str_compact_invalid_addall_children": {
-        "message": "ERRORE: L'elenco degli account/cartelle disponibili ha un numero di elementi non valido!"
+      "message": "ERRORE: L'elenco degli account/cartelle disponibili ha un numero di elementi non valido!"
     },
     "xpunge_multi_str_compact_save_fixed_msg": {
-        "message": "ERRORE: Sono stati trovati elementi non validi durante il salvataggio dell'elenco \"Compattare\" per MultiXpunge.\n\nÈ stato tentato di ripararli.\n\nApri nuovamente le preferenze di Xpunge per vedere cosa è cambiato."
+      "message": "ERRORE: Sono stati trovati elementi non validi durante il salvataggio dell'elenco \"Compattare\" per MultiXpunge.\n\nÈ stato tentato di ripararli.\n\nApri nuovamente le preferenze di Xpunge per vedere cosa è cambiato."
     },
     "xpunge_multi_str_compact_whole": {
-        "message": "(intero)"
+      "message": "(intero)"
     },
     "xpunge_multi_str_confirm_dialog_title": {
-        "message": "Conferma MultiXpunge"
+      "message": "Conferma MultiXpunge"
     },
     "xpunge_multi_str_confirm_msg_body": {
-        "message": "Hai scelto di eseguire MultiXpunge con le seguenti impostazioni:\n\n\n\nCESTINI DA SVUOTARE: $P1$\n\nCARTELLE SPAM DA SVUOTARE: $P2$\n\nCARTELLE/ACCOUNT DA COMPATTARE: $P3$\n\n\n\nSei sicuro di voler continuare?",
-        "placeholders": {
-            "P1": {
-                "content": "$1"
-            },
-            "P2": {
-                "content": "$2"
-            },
-            "P3": {
-                "content": "$3"
-            }
+      "message": "Hai scelto di eseguire MultiXpunge con le seguenti impostazioni:\n\n\n\nCESTINI DA SVUOTARE: $P1$\n\nCARTELLE SPAM DA SVUOTARE: $P2$\n\nCARTELLE/ACCOUNT DA COMPATTARE: $P3$\n\n\n\nSei sicuro di voler continuare?",
+      "placeholders": {
+        "P1": {
+          "content": "$1"
+        },
+        "P2": {
+          "content": "$2"
+        },
+        "P3": {
+          "content": "$3"
         }
+      }
     },
     "xpunge_multi_str_junk_save_fixed_msg": {
-        "message": "ERRORE: Sono stati trovati elementi non validi durante il salvataggio dell'elenco \"Cartelle Spam\" per MultiXpunge.\n\nÈ stato tentato di ripararli.\n\nApri nuovamente le preferenze di Xpunge per vedere cosa è cambiato."
+      "message": "ERRORE: Sono stati trovati elementi non validi durante il salvataggio dell'elenco \"Cartelle Spam\" per MultiXpunge.\n\nÈ stato tentato di ripararli.\n\nApri nuovamente le preferenze di Xpunge per vedere cosa è cambiato."
     },
     "xpunge_multi_str_trash_save_fixed_msg": {
-        "message": "ERRORE: Sono stati trovati elementi non validi durante il salvataggio dell'elenco \"Cestini\" per MultiXpunge.\n\nÈ stato tentato di ripararli.\n\nApri nuovamente le preferenze di Xpunge per vedere cosa è cambiato."
+      "message": "ERRORE: Sono stati trovati elementi non validi durante il salvataggio dell'elenco \"Cestini\" per MultiXpunge.\n\nÈ stato tentato di ripararli.\n\nApri nuovamente le preferenze di Xpunge per vedere cosa è cambiato."
     },
     "xpunge_pref_migration_error_1": {
-        "message": "Si è verificato un problema durante la migrazione delle preferenze di Xpunge!"
+      "message": "Si è verificato un problema durante la migrazione delle preferenze di Xpunge!"
     },
     "xpunge_pref_migration_error_2": {
-        "message": "ERRORE"
+      "message": "ERRORE"
     },
     "xpunge_pref_migration_error_3": {
-        "message": "Apri la finestra delle Preferenze in Xpunge e controlla le preferenze. Se qualcosa non sembra corretto, puoi reimpostare le preferenze o provare a recuperare le preferenze precedenti."
+      "message": "Apri la finestra delle Preferenze in Xpunge e controlla le preferenze. Se qualcosa non sembra corretto, puoi reimpostare le preferenze o provare a recuperare le preferenze precedenti."
     },
     "xpunge_pref_migration_error_4": {
-        "message": "Per ulteriori informazioni su come recuperare le preferenze precedenti, visita la seguente pagina web:"
+      "message": "Per ulteriori informazioni su come recuperare le preferenze precedenti, visita la seguente pagina web:"
     },
     "xpunge_single_str_confirm_dialog_title": {
-        "message": "Conferma Xpunge"
+      "message": "Conferma Xpunge"
     },
     "xpunge_single_str_confirm_msg_body": {
-        "message": "Hai scelto di eseguire Xpunge sull'account \"$P1$\". Le tue impostazioni sono le seguenti:\n\n\n\nSVUOTA CESTINO: $P2$\n\nSVUOTA SPAM: $P3$\n\nCOMPACTA CARTELLE: $P4$\n\n\n\nSei sicuro di voler continuare?",
-        "placeholders": {
-            "P1": {
-                "content": "$1"
-            },
-            "P2": {
-                "content": "$2"
-            },
-            "P3": {
-                "content": "$3"
-            },
-            "P4": {
-                "content": "$4"
-            }
+      "message": "Hai scelto di eseguire Xpunge sull'account \"$P1$\". Le tue impostazioni sono le seguenti:\n\n\n\nSVUOTA CESTINO: $P2$\n\nSVUOTA SPAM: $P3$\n\nCOMPACTA CARTELLE: $P4$\n\n\n\nSei sicuro di voler continuare?",
+      "placeholders": {
+        "P1": {
+          "content": "$1"
+        },
+        "P2": {
+          "content": "$2"
+        },
+        "P3": {
+          "content": "$3"
+        },
+        "P4": {
+          "content": "$4"
         }
+      }
     },
     "xpunge_str_no": {
-        "message": "no"
+      "message": "no"
     },
     "xpunge_str_yes": {
-        "message": "sì"
+      "message": "sì"
     },
     "xpunge_timer_str_compact_already_added": {
-        "message": "L'account/cartella selezionato è già stato aggiunto all'elenco \"Compattare\"."
+      "message": "L'account/cartella selezionato è già stato aggiunto all'elenco \"Compattare\"."
     },
     "xpunge_timer_str_compact_belongs": {
-        "message": "su"
+      "message": "su"
     },
     "xpunge_timer_str_compact_invalid_account": {
-        "message": "ERRORE: L'account/cartella selezionato non è valido!"
+      "message": "ERRORE: L'account/cartella selezionato non è valido!"
     },
     "xpunge_timer_str_compact_invalid_addall_children": {
-        "message": "ERRORE: L'elenco degli account/cartelle disponibili ha un numero di elementi non valido!"
+      "message": "ERRORE: L'elenco degli account/cartelle disponibili ha un numero di elementi non valido!"
     },
     "xpunge_timer_str_compact_save_fixed_msg": {
-        "message": "ERRORE: Sono stati trovati elementi non validi durante il salvataggio dell'elenco \"Compattare\" per il Timer.\n\nÈ stato tentato di ripararli.\n\nApri nuovamente le preferenze di Xpunge per vedere cosa è cambiato."
+      "message": "ERRORE: Sono stati trovati elementi non validi durante il salvataggio dell'elenco \"Compattare\" per il Timer.\n\nÈ stato tentato di ripararli.\n\nApri nuovamente le preferenze di Xpunge per vedere cosa è cambiato."
     },
     "xpunge_timer_str_compact_whole": {
-        "message": "(intero)"
+      "message": "(intero)"
     },
     "xpunge_timer_str_junk_save_fixed_msg": {
-        "message": "ERRORE: Sono stati trovati elementi non validi durante il salvataggio dell'elenco \"Cartelle Spam\" per il Timer.\n\nÈ stato tentato di ripararli.\n\nApri nuovamente le preferenze di Xpunge per vedere cosa è cambiato."
+      "message": "ERRORE: Sono stati trovati elementi non validi durante il salvataggio dell'elenco \"Cartelle Spam\" per il Timer.\n\nÈ stato tentato di ripararli.\n\nApri nuovamente le preferenze di Xpunge per vedere cosa è cambiato."
     },
     "xpunge_timer_str_loop_invalid_integer": {
-        "message": "Intero non valido nel campo intervallo loop"
+      "message": "Intero non valido nel campo intervallo del ciclo"
     },
     "xpunge_timer_str_startup_invalid_integer": {
-        "message": "Intero non valido nel campo intervallo avvio"
+      "message": "Intero non valido nel campo intervallo di avvio"
     },
     "xpunge_timer_str_trash_save_fixed_msg": {
-        "message": "ERRORE: Sono stati trovati elementi non validi durante il salvataggio dell'elenco \"Cestini\" per il Timer.\n\nÈ stato tentato di ripararli.\n\nApri nuovamente le preferenze di Xpunge per vedere cosa è cambiato."
+      "message": "ERRORE: Sono stati trovati elementi non validi durante il salvataggio dell'elenco \"Cestini\" per il Timer.\n\nÈ stato tentato di ripararli.\n\nApri nuovamente le preferenze di Xpunge per vedere cosa è cambiato."
     }
-}
+  }
