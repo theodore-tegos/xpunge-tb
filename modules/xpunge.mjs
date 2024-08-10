@@ -12,7 +12,7 @@ export async function xpungeAccount(folder) {
         const dialogMsg = browser.i18n.getMessage(
             "xpunge_single_str_confirm_msg_body",
             [
-                account.name,
+                account != null ? account.name : `${folder.accountId} - UNKNOWN`,
                 getYesOrNo(preferences.empty_trash),
                 getYesOrNo(preferences.empty_junk),
                 getYesOrNo(preferences.compact_folders),
@@ -210,15 +210,20 @@ async function prettyPrintFolderList(folders, isForCompacting = false) {
     }
     let list = [];
     for (let folder of folders) {
-        let account = await browser.accounts.get(folder.accountId);
-        if (folder.isRoot) {
-            if (isForCompacting) {
-                list.push(` - ${account.name} ${browser.i18n.getMessage("xpunge_multi_str_compact_whole")}`)
+        try {
+            let account = await browser.accounts.get(folder.accountId);
+            if (folder.isRoot) {
+                if (isForCompacting) {
+                    list.push(` - ${account.name} ${browser.i18n.getMessage("xpunge_multi_str_compact_whole")}`)
+                } else {
+                    list.push(` - ${account.name}`)
+                }
             } else {
-                list.push(` - ${account.name}`)
+                list.push(` - ${folder.name} @ ${account.name}`)
             }
-        } else {
-            list.push(` - ${folder.name} @ ${account.name}`)
+        } catch (e) {
+            let entry = folder.accountId + (isForCompacting ? " - for compacting" : "");
+            console.warn(`XPUNGE: An error occurred while pretty printing account/folder (${entry}) while confirming MultiXpunge: ${e.message}`);
         }
     }
     return `\n${list.join("\n")}`;
