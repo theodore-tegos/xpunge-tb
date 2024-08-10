@@ -21,15 +21,14 @@ const LEGACY_PREF_NAMES = {
 }
 
 export async function migratePrefs() {
-    const options = {}
+    const options = {};
     for (let name of Object.keys(LEGACY_PREF_NAMES)) {
         let value = await getLegacyPreference(name);
-        if (value) {
+        if ((value !== null) && (value !== undefined)) {
             console.info(`XPUNGE: Migrating legacy preference ${LEGACY_PREF_NAMES[name]} to local storage.`);
             options[`preferences_${name}`] = value;
             await browser.LegacyPrefsMigrator.clearUserPref(LEGACY_PREF_NAMES[name]);
         }
-        
     }
 
     // Merge timer_absolute_hours and timer_absolute_minutes (if needed).
@@ -51,7 +50,8 @@ export async function migratePrefs() {
 
 async function getLegacyPreference(name) {
     let rv = await browser.LegacyPrefsMigrator.getUserPref(LEGACY_PREF_NAMES[name]);
-    if (rv) {
+
+    if ((rv !== null) && (rv !== undefined)) {
         // Folders were  stored as legacy urls, and are now stored as an array of MailFolderIds
         if (
             [
@@ -63,7 +63,7 @@ async function getLegacyPreference(name) {
                 "timer_compact_folders",
             ].includes(name)
         ) {
-            const folders = []
+            const folders = [];
             const urls = rv.split(SEPARATOR);
             for (let url of urls) {
                 let folder = await browser.LegacyPrefsMigrator.getFolderForUrl(url);
@@ -71,8 +71,9 @@ async function getLegacyPreference(name) {
                     folders.push(folder.id);
                 }
             }
-            return folders
+            return folders;
         }
+
         return rv;
     }
 }
