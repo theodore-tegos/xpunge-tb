@@ -98,26 +98,38 @@ async function loadPref(prefElement) {
     }
 
     let value = await getPreference(name);
+
     if (["multi_compact_folders", "timer_compact_folders"].includes(name)) {
         let prefix = name.split("_")[0];
-        for (let folder of value) {
-            let account = await browser.accounts.get(folder.accountId);
-            let path = (await browser.folders.getParentFolders(folder.id))
-                .filter(f => !f.isRoot).map(f => f.name);
-            path.push(account.name);
-            path.reverse();
-            if (!folder.isRoot) {
-                path.push(folder.name);
-            }
 
-            let info = {
-                folderId: folder.id,
-                level: path.length - 1,
-                path: path.join(" / "),
+        for (let folder of value) {
+            try {
+                let account = await browser.accounts.get(folder.accountId);
+
+                let path = (await browser.folders.getParentFolders(folder.id))
+                    .filter(f => !f.isRoot).map(f => f.name);
+
+                path.push(account.name);
+                path.reverse();
+                if (!folder.isRoot) {
+                    path.push(folder.name);
+                }
+
+                let info = {
+                    folderId: folder.id,
+                    level: path.length - 1,
+                    path: path.join(" / "),
+                };
+
+                addOption(prefix, info);
+                updateCompactButtons(prefix);
+            } catch (e) {
+                let entry = folder.accountId;
+                let functionality = name === "multi_compact_folders" ? "MultiXpunge" : "Timer";
+                console.warn(`XPUNGE: An error occurred while loading account/folder to compact (${entry}) for ${functionality} preferences: ${e.message}`);
             }
-            addOption(prefix, info);
-            updateCompactButtons(prefix);
         }
+
         return;
     }
 
