@@ -25,6 +25,7 @@ the Initial Developer. All Rights Reserved.
 
 Contributor(s):
   John Bieling (Rewrite for Thunderbird 128)
+  Micz (Italian Translation)
   Dagobert_78 (French Translation)
   Joergen (Danish Translation)
   kiki (Japanese Translation)
