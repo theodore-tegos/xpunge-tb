@@ -39,13 +39,17 @@ export async function getPreference(name) {
             "timer_compact_folders",
         ].includes(name)
     ) {
-        // For convinience, we return the full folder object and ignore folders
+        // For convenience, we return the full folder object and ignore folders
         // which no longer exists.
         let folders = [];
         for (let id of value) {
-            let folder = await browser.folders.get(id);
-            if (folder) {
-                folders.push(folder);
+            try {
+                let folder = await browser.folders.get(id);
+                if (folder) {
+                    folders.push(folder);
+                }
+            } catch {
+                // Folder does not exist, ignore.
             }
         }
         return folders;
