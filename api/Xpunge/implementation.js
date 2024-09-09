@@ -105,13 +105,14 @@ var Xpunge = class extends ExtensionCommon.ExtensionAPI {
           ).rootFolder;
           
           const _emptyTrash = async (folder) => {
-            if (folder.server.type == "none") {
+            if ((folder.server.type === "none") || (folder.server.type === "rss")) {
               // The implementation of nsMsgLocalMailFolder::EmptyTrash does not call the
               // urlListener
               // https://searchfox.org/comm-central/rev/d9f4b21312781d3abb9c88cade1d077b9e1622f4/mailnews/local/src/nsLocalMailFolder.cpp#615
               folder.emptyTrash(null);
               return;
-            };
+            }
+
             let urlListener = new UrlListener();
             folder.emptyTrash(urlListener);
             await urlListener.isDone();
