@@ -103,9 +103,9 @@ var Xpunge = class extends ExtensionCommon.ExtensionAPI {
             folder.accountId,
             folder.path
           ).rootFolder;
-          
+
           const _emptyTrash = async (folder) => {
-            if ((folder.server.type === "none") || (folder.server.type === "rss")) {
+            if (["none", "rss", "pop3"].includes(folder.server.type)) {
               // The implementation of nsMsgLocalMailFolder::EmptyTrash does not call the
               // urlListener
               // https://searchfox.org/comm-central/rev/d9f4b21312781d3abb9c88cade1d077b9e1622f4/mailnews/local/src/nsLocalMailFolder.cpp#615
