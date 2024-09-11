@@ -14,7 +14,7 @@
 
   "description": "Empties the Trash and Junk folders, and compacts folders in multiple Thunderbird accounts.",
 
-  "version": "5.0.0",
+  "version": "5.0.1",
 
   "author": "Theodore Tegos, John Bieling",
 
