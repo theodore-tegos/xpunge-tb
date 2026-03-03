@@ -5,7 +5,7 @@
     "gecko": {
       "id": "{786abda0-fd14-d247-bf69-38b2fc18491b}",
       "strict_min_version": "128.2.0",
-      "strict_max_version": "131.*"
+      "strict_max_version": "148.*"
     }
   },
 
@@ -14,7 +14,7 @@
 
   "description": "Empties the Trash and Junk folders, and compacts folders in multiple Thunderbird accounts.",
 
-  "version": "5.0.2",
+  "version": "5.0.3",
 
   "author": "Theodore Tegos, John Bieling",
 
